@@ -26,10 +26,6 @@ class Solution {
             }
         } 
 
-        int prod1 = min1 * min2 * max1;
-        int prod2 = max1 * max2 * max3;
-
-        if(prod1 > prod2) return prod1;
-        return prod2;
+        return Math.max(max1 * max2 * max3, min1 * min2 * max1);
     }
 }
