@@ -12,7 +12,7 @@ class Solution {
             sum += nums[i];
         }
 
-        
+        if(sum < x) return -1;
 
         i = 0;
 
