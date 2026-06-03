@@ -22,17 +22,16 @@ class Solution {
 
     ListNode getMid(ListNode node){
         if(node == null && node.next == null) return node;
-        ListNode slow = node;
+        ListNode midPrev = node;
         ListNode fast = node;
 
 
         while(fast.next != null && fast.next.next != null){ 
-            slow = slow.next;
+            midPrev = midPrev.next;
             fast = fast.next.next;
         }
 
-        ListNode midPrev = slow;
-        ListNode mid = slow.next;
+        ListNode mid = midPrev.next;
 
         midPrev.next = null;
 
