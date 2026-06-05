@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
+| [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
+| [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 ## Sliding Window
@@ -152,4 +154,16 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
+## Stack
+|  |
+| ------- |
+| [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
+## Ordered Set
+|  |
+| ------- |
+| [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 <!---LeetCode Topics End-->
