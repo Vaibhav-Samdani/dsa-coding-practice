@@ -8,23 +8,24 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
-
-    ArrayList<Integer> arr;
-
-    public Solution(ListNode head) {
-        arr = new ArrayList<>();
-        while(head != null){
-            this.arr.add(head.val);
-            head = head.next;
+class Solution
+{
+    ArrayList<Integer> list = new ArrayList<>();
+    public Solution(ListNode head)
+    {
+        ListNode temp = head;
+        while(temp != null)
+        {
+            list.add(temp.val);
+            temp = temp.next;
         }
     }
     
-    public int getRandom() {
-        int idx = (int)(Math.random() * (double)arr.size());
-
-        return arr.get(idx);
-
+    public int getRandom()
+    {
+        int random = (int)(Math.random() * list.size());
+        int rand_index = random % list.size();
+        return list.get(rand_index);
     }
 }
 
