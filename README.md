@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
+| [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -160,10 +161,12 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
+| [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
+| [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 ## Ordered Set
 |  |
 | ------- |
