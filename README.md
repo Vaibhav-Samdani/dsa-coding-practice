@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 ## Sorting
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 ## Monotonic Stack
 |  |
@@ -166,4 +168,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 <!---LeetCode Topics End-->
