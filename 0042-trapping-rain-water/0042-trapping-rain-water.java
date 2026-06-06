@@ -1,30 +1,32 @@
 class Solution {
     public int trap(int[] arr) {
         int n = arr.length;
-
-        Deque<Integer> st = new ArrayDeque<>();
-
         int result = 0;
 
-        for(int i = 0; i<n;i++){
+        int leftMax = 0;
+        int rightMax = n-1;
 
-            while(!st.isEmpty() && arr[st.peek()] < arr[i]){
-                int val = st.pop();
+        int left = 0;
+        int right = n - 1;
 
-                if(st.isEmpty()) break;
+        while (left < right) {
+            if (arr[left] < arr[right]) {
+                if (arr[left] >= arr[leftMax]) {
+                    leftMax = left;
+                } else {
 
-                int nge = i;
-                int pge = st.peek();
+                    result += arr[leftMax] - arr[left];
+                }
+                left++;
+            } else {
+                if (arr[right] >= arr[rightMax]) {
+                    rightMax = right;
+                } else {
 
-                int width = nge - pge - 1;
-
-                int height = Math.min(arr[nge],arr[pge]) - arr[val];
-
-                result += width * height;
-
+                    result += arr[rightMax] - arr[right];
+                }
+                right--;
             }
-
-            st.push(i);
         }
 
         return result;
