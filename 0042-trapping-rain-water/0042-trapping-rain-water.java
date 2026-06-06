@@ -2,7 +2,7 @@ class Solution {
     public int trap(int[] arr) {
         int n = arr.length;
 
-        Stack<Integer> st = new Stack<>();
+        Deque<Integer> st = new ArrayDeque<>();
 
         int result = 0;
 
