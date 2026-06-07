@@ -2,36 +2,31 @@ class StockSpanner {
 
     class Node {
         int val;
-        int idx;
+        int span;
 
-        Node(int val, int i) {
+        Node(int val, int span) {
             this.val = val;
-            this.idx = i;
+            this.span = span;
         }
     }
 
     Stack<Node> st;
-    int curr;
 
     public StockSpanner() {
         st = new Stack<>();
-        curr = 0;
+      
     }
 
     public int next(int price) {
+
+        int span = 1;
        
         while (!st.isEmpty() && st.peek().val <= price) {
-            st.pop();
+            span += st.pop().span;
         }
-        // Node prevNode = st.peek();
-        int span;
-        if (st.isEmpty()) {
-            span = curr + 1;
-        } else {
-            span = curr - st.peek().idx + 1;
-        }
-        st.push(new Node(price, curr + 1));
-        curr++;
+        
+        st.push(new Node(price, span));
+        
         return span;
     }
 }
