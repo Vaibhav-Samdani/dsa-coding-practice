@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
+| [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 ## Sorting
 |  |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0086-partition-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0086-partition-list) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 ## Design
 |  |
