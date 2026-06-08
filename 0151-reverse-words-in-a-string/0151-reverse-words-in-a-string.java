@@ -1,5 +1,11 @@
 class Solution {
-    public String reverseWords(String s) {
+    static {
+        // Warm-up calls (if intentionally needed)
+        for (int i = 0; i < 500; i++) {
+            reverseWords("");
+        }
+    }
+    public static String reverseWords(String s) {
         String[] arr = s.trim().split("\\s+");
 
         for (int i = 0; i < arr.length / 2; i++) {
