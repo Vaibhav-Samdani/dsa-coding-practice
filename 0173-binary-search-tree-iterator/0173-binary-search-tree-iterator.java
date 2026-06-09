@@ -16,12 +16,10 @@
 class BSTIterator {
 
     Stack<TreeNode> st;
-    TreeNode curr;
 
     public BSTIterator(TreeNode root) {
         st = new Stack<>();
         addAll(root);
-        curr = st.peek();
 
     }
 
