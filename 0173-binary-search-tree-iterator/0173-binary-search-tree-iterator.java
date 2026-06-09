@@ -24,24 +24,25 @@ class BSTIterator {
         curr = st.peek();
 
     }
-    
+
     public int next() {
-        if(st.isEmpty()) return -1;
-        TreeNode val = st.pop();
-        curr = st.isEmpty() ? null : st.peek();
-        return val.val;
+        TreeNode node = st.pop();
+        if (node.right != null) {
+            addAll(node.right);
+        }
+        return node.val;
     }
-    
+
     public boolean hasNext() {
         return !st.isEmpty();
     }
 
     // Helpers
-    public void addAll(TreeNode root){
-        if(root == null) return;
-        addAll(root.right);
-        st.push(root);
-        addAll(root.left);
+    public void addAll(TreeNode root) {
+        while (root != null) {
+            st.push(root);
+            root = root.left;
+        }
     }
 }
 
