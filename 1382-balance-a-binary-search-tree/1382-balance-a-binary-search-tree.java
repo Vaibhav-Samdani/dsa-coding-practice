@@ -14,29 +14,32 @@
  * }
  */
 class Solution {
-    void inorder(TreeNode root, ArrayList<TreeNode> temp){
-        if(root == null) return;
 
-        inorder(root.left,temp);
-        temp.add(root);
-        inorder(root.right,temp);
-    }
+    ArrayList<TreeNode> arr = new ArrayList();
 
-    TreeNode binarySearch(ArrayList<TreeNode> arr, int low, int high){
-        if(high < low) return null;
-
-        int mid = low + (high - low)/2;
-
-        arr.get(mid).left = binarySearch(arr,low,mid-1);
-        arr.get(mid).right = binarySearch(arr,mid+1,high);
-        
-        return arr.get(mid);
-    }
     public TreeNode balanceBST(TreeNode root) {
-        ArrayList<TreeNode> temp = new ArrayList<>();
+        inorder(root);
+        return balanceBSTH(root,0,arr.size()-1); 
+    }
+    public void inorder(TreeNode root){
+        if(root==null){
+            return;
+        }
 
-        inorder(root,temp);
+        inorder(root.left);
+        arr.add(root);
+        inorder(root.right);
+    }
+    public TreeNode balanceBSTH(TreeNode root,int st,int end){
+        if(st>end){
+            return null;
+        }
 
-        return binarySearch(temp,0,temp.size()-1);
+        int mid = (st+end)/2;
+        root = arr.get(mid);
+        root.left = balanceBSTH(root.left,st,mid-1);
+        root.right = balanceBSTH(root.right,mid+1,end);
+
+        return root;
     }
 }
