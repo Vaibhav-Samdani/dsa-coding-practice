@@ -15,10 +15,11 @@
  */
 class Solution {
 
-    public static List<Double> averageOfLevels(TreeNode root) {
-        if(root == null) return null;
+
+    public List<Double> averageOfLevels(TreeNode root) {
 
         List<Double> ans = new ArrayList<>();
+        if(root == null) return ans;
 
         Queue<TreeNode> q = new LinkedList<>();
 
