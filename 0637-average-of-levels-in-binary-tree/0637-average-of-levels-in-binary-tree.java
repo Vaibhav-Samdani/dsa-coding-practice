@@ -15,11 +15,6 @@
  */
 class Solution {
 
-    static {
-        for(int i = 0; i<500;i++){
-            averageOfLevels(new TreeNode(-1));
-        }
-    }
     public static List<Double> averageOfLevels(TreeNode root) {
         if(root == null) return null;
 
