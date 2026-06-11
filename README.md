@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0098-validate-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Binary Search Tree
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
 ## Matrix
@@ -256,5 +258,10 @@ A collection of LeetCode questions to ace the coding interview!
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
