@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0002-add-two-numbers) |
+| [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 ## Recursion
@@ -286,4 +287,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
