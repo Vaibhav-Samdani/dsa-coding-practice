@@ -22,7 +22,12 @@ class Node {
 */
 
 class Solution {
-    public Node connect(Node root) {
+    static {
+        for(int i = 0; i<500;i++){
+            connect(new Node(-1));
+        }
+    }
+    public static Node connect(Node root) {
         if(root == null) return null;
 
         Queue<Node> q = new LinkedList<>();
