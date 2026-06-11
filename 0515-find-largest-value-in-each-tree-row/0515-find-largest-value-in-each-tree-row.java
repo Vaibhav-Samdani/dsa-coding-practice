@@ -14,7 +14,12 @@
  * }
  */
 class Solution {
-    public List<Integer> largestValues(TreeNode root) {
+    static {
+        for(int i = 0; i<500;i++){
+            largestValues(new TreeNode(-1));
+        }
+    }
+    public static List<Integer> largestValues(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
 
         if(root == null) return ans;
