@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0004-median-of-two-sorted-arrays](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
+| [0136-single-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0136-single-number) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0136-single-number) |
 | [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 ## Topological Sort
 |  |
