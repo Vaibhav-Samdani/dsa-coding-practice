@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
 ## Union-Find
@@ -291,4 +294,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
