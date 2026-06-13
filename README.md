@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0173-binary-search-tree-iterator](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0173-binary-search-tree-iterator](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
+| [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -284,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
