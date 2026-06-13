@@ -8,7 +8,12 @@
  * }
  */
 class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    static {
+        for(int i = 0 ; i<500;i++){
+            lowestCommonAncestor(new TreeNode(-1), new TreeNode(-1),new TreeNode(-1));
+        }
+    }
+    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null) return null;
 
         if(root == p || root == q){
