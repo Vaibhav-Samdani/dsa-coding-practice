@@ -1,16 +1,19 @@
 class Solution {
     public String mapWordWeights(String[] words, int[] weights) {
-        String s = new String();
-        for(String word : words){
+        char[] tempChar = new char[words.length];
+        char[] reverseAlphabets = {'z', 'y', 'x', 'w','v','u', 't', 's', 'r', 'q', 'p', 'o', 'n', 'm', 'l', 'k', 'j', 'i', 'h', 'g', 'f', 'e', 'd', 'c', 'b', 'a' };
+        
+        for(int i = 0; i < words.length;i++){
+            String word = words[i];
             int sum = 0;
             for(char ch : word.toCharArray()){
-                sum += weights[ch - 'a'];
+                sum += weights[ch - 97];
             }
 
             sum %= 26;
-            s = s + (char)(26 - sum + 'a' - 1);
+            tempChar[i] = reverseAlphabets[sum];
         }
 
-        return s;
+        return new String(tempChar);
     }
 }
