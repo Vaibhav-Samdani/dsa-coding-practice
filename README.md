@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0004-median-of-two-sorted-arrays](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0004-median-of-two-sorted-arrays) |
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
+| [0120-triangle](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0120-triangle) |
 | [0136-single-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0136-single-number) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0239-sliding-window-maximum) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
+| [0120-triangle](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0120-triangle) |
 ## Queue
 |  |
 | ------- |
