@@ -2,38 +2,26 @@ class Solution {
     int minCost(int[] height) {
         int n = height.length;
         
+        if(n == 1) return 0;
+        
+        // if(n == 2)
+        
         int[] dp = new int[n];
         
-        Arrays.fill(dp,-1);
+        Arrays.fill(dp,0);
         
-        int min = Integer.MAX_VALUE;
+        dp[0] = 0;
+        dp[1] = Math.abs(height[1] - height[0]);
         
-        // for(int i = 0; i<n;i++){
-            min = Math.min(helper(height,dp,n-1), min);
-        // }
+        for(int i = 2; i<n;i++){
+            int j1 = dp[i-1] + Math.abs(height[i] - height[i-1]);
+            int j2 = dp[i-2] + Math.abs(height[i] - height[i-2]);
+            
+            dp[i] = Math.min(j1,j2);
+        }
         
-        return min;
+        return dp[n-1];
     }
     
-    int helper(int[] height, int[] dp, int i){
-        
-        if(i == 0) return 0;
-        
-        if(dp[i] != -1) {
-           return dp[i];
-        }
-        
-        
-        int oneJump = helper(height, dp, i-1) + Math.abs(height[i] - height[i-1]);
-        int twoJump = Integer.MAX_VALUE ;
-        
-        if(i > 1){
-            twoJump = Math.min(twoJump, helper(height, dp, i-2) + Math.abs(height[i] - height[i-2]));
-        }
-        
-        
-        dp[i] = Math.min(oneJump ,twoJump);
-        
-        return dp[i];
-    }
+    
 }
