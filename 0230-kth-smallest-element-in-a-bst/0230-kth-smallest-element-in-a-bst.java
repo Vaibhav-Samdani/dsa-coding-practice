@@ -15,28 +15,26 @@
  */
 class Solution {
     int val = 0;
+    int count = 0;
 
     public int kthSmallest(TreeNode root, int k) {
-        inorder(root,0,k);
+        inorder(root,k);
         return val; 
     }
 
-    int inorder(TreeNode root, int i, int k) {
+    void inorder(TreeNode root, int k) {
 
-        if (root == null)
-            return 0;
+        if (root == null || count >= k)
+            return ;
 
-        int a = inorder(root.left, i, k);
-        i += a;
+        inorder(root.left, k);
+        count++;
 
-        if (i+1 == k) {
+        if (count == k) {
             val = root.val;
         }
 
-        int b = inorder(root.right, i+1, k);
-        i += b;
-
-
-        return a + b + 1;
+        inorder(root.right,  k);
+      
     }
 }
