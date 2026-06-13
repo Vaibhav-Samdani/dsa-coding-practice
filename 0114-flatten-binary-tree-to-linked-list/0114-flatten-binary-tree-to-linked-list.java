@@ -15,26 +15,25 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        
-        toLLHelper(root);
-        
+        toLL(root);
     }
 
-    void toLLHelper(TreeNode root) {
-        if (root == null)
-            return;
+    void toLL(TreeNode root) {
 
-        if (root.left != null) {
-            TreeNode right = root.right;
-            TreeNode temp = root.left;
-            while (temp.right != null) {
-                temp = temp.right;
-            }
-            root.right = root.left;
-            root.left = null;
-            temp.right = right;
+       if(root == null) return;
+
+       if(root.left != null) {
+        TreeNode right = root.right;
+        TreeNode temp = root.left;
+        while(temp.right != null){
+            temp = temp.right;
         }
-        if (root.right != null)
-            toLLHelper(root.right);
+        root.right = root.left;
+        root.left = null;
+        temp.right = right;
+       }
+       if(root.right != null){
+        toLL(root.right);
+       }
     }
 }
