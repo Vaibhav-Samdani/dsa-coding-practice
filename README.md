@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
 | [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
+| [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
 ## Queue
 |  |
 | ------- |
@@ -309,4 +311,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
