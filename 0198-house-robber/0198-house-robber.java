@@ -14,21 +14,7 @@ class Solution {
         for(int i = 2; i<n;i++){
             dp[i] = Math.max(nums[i] + dp[i-2], dp[i-1]);
         }
-
-        // if(n == 2) return Math.max(nums[0],nums[1]);
         return dp[n-1];
     
-    }
-
-    int helper(int[] dp, int[] nums, int i){
-        if(i == 0) return nums[i];
-
-        if(i == 1) return Math.max(nums[i], nums[i-1]);
-
-        if(dp[i] != -1) return dp[i];
-
-        dp[i] = Math.max(helper(dp,nums,i-2) + nums[i],helper(dp,nums,i-1)) ;
-
-        return dp[i];
     }
 }
