@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [3838-weighted-word-mapping](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3838-weighted-word-mapping) |
 ## Sorting
 |  |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0155-min-stack](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0901-online-stock-span](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0901-online-stock-span) |
 ## Data Stream
 |  |
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -261,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
@@ -292,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -307,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0199-binary-tree-right-side-view](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0199-binary-tree-right-side-view) |
 | [0207-course-schedule](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
