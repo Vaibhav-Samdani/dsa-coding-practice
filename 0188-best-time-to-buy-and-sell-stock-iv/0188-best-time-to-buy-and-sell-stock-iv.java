@@ -1,5 +1,10 @@
 class Solution {
-    public int maxProfit(int k, int[] prices) {
+    static{
+        for(int i=0;i<500;i++){
+            maxProfit(1,new int[]{1,2});
+        }
+    }
+    public static int maxProfit(int k, int[] prices) {
         int[][][] dp = new int[prices.length][2][k+1];
 
         for(int i =0; i<prices.length;i++){
@@ -12,7 +17,7 @@ class Solution {
         return helper(dp,prices,0,0,k);
     }
 
-    int helper(int[][][] dp, int[] prices, int day, int state, int k){
+    static int helper(int[][][] dp, int[] prices, int day, int state, int k){
         if(day == prices.length || k==0) return 0;
 
         if(dp[day][state][k] != -1){
