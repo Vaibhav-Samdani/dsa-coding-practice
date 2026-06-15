@@ -15,11 +15,11 @@ class Solution {
         int profit=0;
 
         if(state == 0){
-            int buy = -prices[day] - fee + helper(dp,prices,day + 1, 1, fee);
+            int buy = -prices[day]  + helper(dp,prices,day + 1, 1, fee);
             int notBuy =  helper(dp,prices,day + 1, 0, fee);
             profit = Math.max(buy,notBuy);
         }else{
-            int sell = prices[day] + helper(dp,prices,day + 1, 0, fee);
+            int sell = prices[day] + helper(dp,prices,day + 1, 0, fee) - fee;
             int notSell = helper(dp,prices,day + 1, 1, fee);
 
             profit = Math.max(sell,notSell);
