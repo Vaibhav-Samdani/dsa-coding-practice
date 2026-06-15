@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1382-balance-a-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [1833-maximum-ice-cream-bars](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1833-maximum-ice-cream-bars) |
 ## Counting Sort
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0198-house-robber) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Queue
 |  |
 | ------- |
