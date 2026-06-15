@@ -13,27 +13,18 @@ class Solution {
         if (head == null || head.next == null)
             return null;
 
-        if (head.next.next == null) {
-            head.next = null;
-            return head;
-        }
-        ListNode slow = head;
+        ListNode slow = new ListNode(-1);
+        slow.next = head;
         ListNode fast = head;
-        ListNode temp = null;
-        int count = 0;
 
         while (fast != null && fast.next != null) {
-            temp = slow;
             slow = slow.next;
             fast = fast.next.next;
-            count++;
         }
 
-        // if(count%2 ==1 ){
-            temp.next = temp.next.next;
-        // }else{
-        //     slow.next = slow.next.next;
-        // }
+        
+        slow.next = slow.next.next;
+        
 
         return head;
     }
