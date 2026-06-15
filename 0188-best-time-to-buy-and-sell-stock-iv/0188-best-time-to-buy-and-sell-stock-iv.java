@@ -1,9 +1,5 @@
 class Solution {
-    static{
-        for(int i=0;i<500;i++){
-            maxProfit(1,new int[]{1,2});
-        }
-    }
+    
     public static int maxProfit(int k, int[] prices) {
         int[][][] dp = new int[prices.length][2][k+1];
 
