@@ -1,5 +1,10 @@
 class Solution {
-    public int findMaxForm(String[] strs, int m, int n) {
+    static{
+        for(int i = 0 ; i<500;i++){
+            findMaxForm(new String[]{"0101"},2,3);
+        }
+    }
+    public static int findMaxForm(String[] strs, int m, int n) {
         
         int[][][] dp = new int[strs.length][m+1][n+1];
 
@@ -13,7 +18,7 @@ class Solution {
     }
 
 
-    int helper(int[][][] dp ,String[] strs, int i, int m , int n){
+    static int helper(int[][][] dp ,String[] strs, int i, int m , int n){
         if(i == strs.length) return 0;
 
         if(dp[i][m][n] != -1){
@@ -32,7 +37,7 @@ class Solution {
 
     }
 
-    int count(String str,char ch){
+    static int count(String str,char ch){
         int c = 0;
         for(char val : str.toCharArray()){
             if(val == ch){
