@@ -26,12 +26,19 @@ class Solution {
     int hl(TreeNode root){
         if(root == null) return 0;
 
-        int left = Math.max(0,hl(root.left));
-        int right = Math.max(0,hl(root.right));
+        int left = hl(root.left);
+        int right = hl(root.right);
 
-        sum = Math.max(sum, left + right + root.val);
+        int koi_ek_acha = Math.max(left, right) + root.val;
 
-        return Math.max(left,right) + root.val;
+        int dono_khrab = root.val;
+
+        int sb_shi = left+right+root.val;
+
+        sum = Math.max(sum,Math.max(Math.max(koi_ek_acha,dono_khrab), sb_shi));
+
+        return Math.max(koi_ek_acha,dono_khrab);
+
 
     }
 }
