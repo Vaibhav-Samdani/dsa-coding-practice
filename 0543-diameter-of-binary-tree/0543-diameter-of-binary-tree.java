@@ -23,27 +23,15 @@ class Solution {
     }
 
     int hl(TreeNode root) {
-        if (root == null)
-            return 0;
 
-        if (root.left == null && root.right == null)
+        if (root == null)
             return 0;
 
         int left = hl(root.left);
         int right = hl(root.right);
 
-        int first = 0;
-        if (root.left == null || root.right == null) {
-            first = left + right + 1;
-        } else {
-            first = left + right + 2;
-        }
-        int second = Math.max(right, left) + 1;
+        ans = Math.max(ans, left + right);
 
-        first = Math.max(first, second);
-
-        ans = Math.max(ans, first);
-
-        return second;
+        return Math.max(right,left) + 1;
     }
 }
