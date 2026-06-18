@@ -15,10 +15,10 @@
  */
 class Solution {
     class Node{
-        int i;
+        long i;
         TreeNode node;
-        Node(int val) { this.i = val; }
-        Node(int val, TreeNode node) {
+        Node(long val) { this.i = val; }
+        Node(long val, TreeNode node) {
             this.i = val;
             this.node = node;
         }
@@ -36,14 +36,14 @@ class Solution {
         while (!q.isEmpty()) {
             int len = q.size();
 
-            int first = q.peekFirst().i;
-            int last = q.peekLast().i;
+            long first = q.peekFirst().i;
+            long last = q.peekLast().i;
 
-            maxWidth = Math.max(maxWidth, last - first +1);
+            maxWidth = Math.max(maxWidth, (int)(last - first +1));
 
             for (int i = 0; i < len; i++) {
                 Node temp = q.poll();
-                int j = temp.i;
+                long j = temp.i;
                 if (temp.node.left != null) {
                     q.offer(new Node(2*j,temp.node.left));
                 }
