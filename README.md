@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1732-find-the-highest-altitude](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1833-maximum-ice-cream-bars) |
 | [2140-solving-questions-with-brainpower](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2140-solving-questions-with-brainpower) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
+| [1732-find-the-highest-altitude](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1732-find-the-highest-altitude) |
 ## String
 |  |
 | ------- |
