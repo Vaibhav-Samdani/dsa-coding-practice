@@ -8,24 +8,21 @@
  * }
  */
 class Solution {
-    static {
-        for(int i = 0 ; i<500;i++){
-            lowestCommonAncestor(new TreeNode(-1), new TreeNode(-1),new TreeNode(-1));
-        }
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        return hp(root,p,q);
     }
-    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+
+    TreeNode hp(TreeNode root, TreeNode p, TreeNode q){
         if(root == null) return null;
 
-        if(root == p || root == q){
-            return root;
-        }
+        if(root == p || root == q) return root;
 
-        TreeNode left = lowestCommonAncestor(root.left,p,q);
-        TreeNode right = lowestCommonAncestor(root.right,p,q);
-        
+        TreeNode left = hp(root.left,p,q);
+        TreeNode right = hp(root.right,p,q);
+
         if(left != null && right != null) return root;
-        
-        return left == null ? right : left;
 
+        if(left == null ) return right;
+        return left;
     }
 }
