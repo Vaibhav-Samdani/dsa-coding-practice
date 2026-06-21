@@ -14,7 +14,12 @@
  * }
  */
 class Solution {
+    HashMap<Integer,Integer> mp = new HashMap<>();
     public TreeNode buildTree(int[] inorder, int[] postorder) {
+
+        for(int i = 0; i<postorder.length;i++){
+            mp.put(inorder[i],i);
+        }
 
         int[] idx = { postorder.length - 1 };
 
@@ -29,13 +34,7 @@ class Solution {
 
         int rootVal = postorder[idx[0]];
 
-        int i = start;
-
-        for (; i <= end; i++) {
-            if (inorder[i] == rootVal) {
-                break;
-            }
-        }
+        int i = mp.get(rootVal);
 
         TreeNode root = new TreeNode(rootVal);
 
