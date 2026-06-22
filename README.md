@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
+| [1189-maximum-number-of-balloons](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1189-maximum-number-of-balloons) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 ## Linked List
 |  |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0257-binary-tree-paths](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
+| [1189-maximum-number-of-balloons](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1189-maximum-number-of-balloons) |
 | [3612-process-string-with-special-operations-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3838-weighted-word-mapping) |
 ## Sorting
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
+| [1189-maximum-number-of-balloons](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1189-maximum-number-of-balloons) |
 ## Greedy
 |  |
 | ------- |
