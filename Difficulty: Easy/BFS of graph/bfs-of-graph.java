@@ -1,11 +1,13 @@
 class Solution {
     public ArrayList<Integer> bfs(ArrayList<ArrayList<Integer>> adj) {
-        // code here
-        ArrayList<Integer> ans = new ArrayList<>();
+        
+        int n = adj.size();
+        
+        boolean[] vis = new boolean[n];
+        
+        ArrayList<Integer> ans = new ArrayList<Integer>();
         
         Queue<Integer> q = new LinkedList<>();
-        
-        boolean[] vis = new boolean[adj.size() + 1];
         
         q.offer(0);
         
@@ -18,13 +20,14 @@ class Solution {
             
             ArrayList<Integer> arr = adj.get(temp);
             
-            for(int i = 0; i < arr.size();i++){
-                if(!vis[arr.get(i)]){q.offer(arr.get(i));
-                
-                vis[arr.get(i)] = true;}
+            for(int val : arr){
+                if(!vis[val]){
+                    q.offer(val);
+                    vis[val] = true;
+                }
             }
+            
         }
-        
         
         return ans;
     }
