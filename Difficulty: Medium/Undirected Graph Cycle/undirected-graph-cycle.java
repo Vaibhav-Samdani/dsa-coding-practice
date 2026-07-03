@@ -1,3 +1,13 @@
+class Pair {
+    int node;
+    int parent;
+
+    Pair(int node, int parent) {
+        this.node = node;
+        this.parent = parent;
+    }
+}
+
 class Solution {
 	public boolean isCycle(int V, int[][] edges) {
 		
@@ -19,9 +29,8 @@ class Solution {
 		
 		for (int i = 0; i < V; i++) {
 			if (!vis[i]) {
-				if (helper(vis, adj, -1, i)) {
+				if (helper(vis, adj, i))
 					return true;
-				}
 			}
 		}
 		
@@ -29,24 +38,35 @@ class Solution {
 		
 	}
 	
-	boolean helper(boolean[] vis, ArrayList<ArrayList<Integer>> adj, int parent, int curr) {
-
-    vis[curr] = true;
-
-    for (int i = 0; i < adj.get(curr).size(); i++) {
-
-        int val = adj.get(curr).get(i);
-
-        if (!vis[val]) {
-            if (helper(vis, adj, curr, val)) {
-                return true;
-            }
-        }
-        else if (val != parent) {
-            return true;
-        }
-    }
-
-    return false;
-}
+	boolean helper(boolean[] vis, ArrayList<ArrayList<Integer>> adj, int curr) {
+		
+		Queue<Pair> q = new LinkedList<>();
+		
+		q.offer(new Pair(curr, -1));
+		vis[curr] = true;
+		
+		
+		while (!q.isEmpty()) {
+			Pair temp = q.poll();
+			int node = temp.node;
+			int parent = temp.parent;
+			
+			ArrayList<Integer> arr = adj.get(node);
+			int len = arr.size();
+			for (int i = 0; i<len; i++) {
+				int val = arr.get(i);
+				if (vis[val] && parent != val) {
+					return true;
+				}
+				
+				if (!vis[val]) {
+					q.offer(new Pair(val,node));
+					vis[val] = true;
+				}
+			}
+			
+		}
+		
+		return false;
+	}
 }
