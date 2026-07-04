@@ -1,47 +1,53 @@
 class Solution {
-    public boolean canFinish(int V, int[][] edg) {
+    public boolean canFinish(int V, int[][] edges) {
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        int[] indeg = new int[V];
+		
+		boolean[] vis = new boolean[V];
+		
+		int[] indeg = new int[V];
+		
+		for (int i = 0; i<V; i++) {
+			adj.add(new ArrayList<>());
+		}
+		
+		for (int i = 0; i<edges.length; i++) {
+			int u = edges[i][0];
+			int v = edges[i][1];
+			
+			adj.get(v).add(u);
+		}
+		
+		ArrayList<Integer> ans = new ArrayList<>();
+		Queue<Integer> q = new LinkedList<>();
+		
+		for (int i = 0; i<adj.size(); i++) {
+			for (int val : adj.get(i)) {
+				indeg[val]++;
+			}
+		}
+		
+		for (int i = 0; i<V; i++) {
+			if (indeg[i] == 0) {
+				q.offer(i);
+			}
+		}
+		
+		while (!q.isEmpty()) {
+			int u = q.poll();
+			
+			ans.add(u);
+			
+			for (int v: adj.get(u)) {
+				indeg[v]--;
+				
+				if (indeg[v] == 0) {
+					q.offer(v);
+				}
+			}
+		}
 
-        Queue<Integer> q = new LinkedList<>();
-        
-        for(int i = 0 ; i<V;i++){
-            adj.add(new ArrayList<>());
-        }
-
-
-        for(int i = 0; i < edg.length; i++){
-            int u = edg[i][1];
-            int v = edg[i][0];
-
-            indeg[v]++;
-
-            adj.get(u).add(v);
-        }
-
-        for(int i = 0; i<V; i++){
-            if(indeg[i] == 0){
-                q.offer(i);
-            }
-        }
-
-        int cnt = 0;
-
-        while(!q.isEmpty()){
-            int curr = q.poll();
-            cnt++;
-
-            for(int i : adj.get(curr)){
-                indeg[i]--;
-                if(indeg[i] == 0){
-                    q.offer(i);
-                }
-            }
-
-        }
-
-        return (cnt == V);
+        return ans.size() == V;
+		
+		// return true;
     }
-
-
 }
