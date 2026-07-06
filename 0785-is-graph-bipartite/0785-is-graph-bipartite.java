@@ -17,25 +17,29 @@ class Solution {
         return true;
     }
 
-    // 0 for Red, 1 for Green and -1 : Nothing;
+    // 0  -> Red;
+    // 1  -> Green;
+    // -1 -> Uncolored;
     boolean dfs(int[][] graph, int[] colors, int curr, int currColor) {
         colors[curr] = currColor;
 
-        for (int i = 0; i < graph[curr].length; i++) {
-            // 1. color phle s ho
-            //  1.1 same color phle s ho --> Continue for the next;
-            //  1.2 currColor s dusra color ho   --> return false;
-            // 2. color phle s na ho --> assign the color means move for the next;
-            int val = graph[curr][i];
+        for (int neighbor : graph[curr]) {
+            // 1. Already colored:
+            //      - Same color -> return false.
+            //      - Different color -> continue.
+            // 2. Not colored:
+            //      - Assign opposite color and run DFS.
 
-            if (colors[val] != -1) {
-                if (colors[val] == currColor)
+            if (colors[neighbor] != -1) {
+                if (colors[neighbor] == currColor)
                     return false;
                 continue;
             }
 
-            int color = 1 - currColor;
-            if (!dfs(graph, colors, val, color)) {
+            // (1 - currColor) --> This will change the color
+            // Ex. currColor = 1 then for next node 1 - 0 = 1 -> next node's color = 1;
+            // And vice versa;
+            if (!dfs(graph, colors, neighbor, 1 - currColor)) {
                 return false;
             }
 
