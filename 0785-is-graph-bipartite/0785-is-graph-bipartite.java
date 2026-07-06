@@ -27,17 +27,16 @@ class Solution {
             //  1.2 currColor s dusra color ho   --> return false;
             // 2. color phle s na ho --> assign the color means move for the next;
             int val = graph[curr][i];
-            if (colors[val] == -1) {
-                int color = 1 - currColor;
-                if (!dfs(graph, colors, val, color)) {
+
+            if (colors[val] != -1) {
+                if (colors[val] == currColor)
                     return false;
-                }
-            } else {
-                if (colors[val] == currColor) {
-                    return false;
-                } else {
-                    continue;
-                }
+                continue;
+            }
+
+            int color = 1 - currColor;
+            if (!dfs(graph, colors, val, color)) {
+                return false;
             }
 
         }
