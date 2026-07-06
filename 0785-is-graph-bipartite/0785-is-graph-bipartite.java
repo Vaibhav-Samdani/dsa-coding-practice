@@ -30,20 +30,12 @@ class Solution {
             int val = q.poll();
 
             for (int neighbor : graph[val]) {
-                // 1. Already colored:
-                //      - Same color -> return false.
-                //      - Different color -> continue.
-                // 2. Not colored:
-                //      - Assign opposite color and run DFS.
 
                 if (colors[neighbor] != -1) {
                     if (colors[neighbor] == colors[val])
                         return false;
                 }
 
-                // (1 - colors[val]) --> This will change the color
-                // Ex. colors[val] = 1 then for next node 1 - 0 = 1 -> next node's color = 1;
-                // And vice versa;
                 else if (colors[neighbor] == -1) {
                     colors[neighbor] = 1 - colors[val];
                     q.offer(neighbor);
