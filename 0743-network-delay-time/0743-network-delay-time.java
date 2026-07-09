@@ -11,7 +11,10 @@ class Solution {
 
         @Override
         public int compareTo(Pair other) {
-            return Integer.compare(this.weight, other.weight);
+            if (this.weight != other.weight)
+                return Integer.compare(this.weight, other.weight);
+
+            return Integer.compare(this.node, other.node);
         }
     }
 
@@ -37,33 +40,37 @@ class Solution {
 
         Arrays.fill(result, Integer.MAX_VALUE);
 
-        PriorityQueue<Pair> minHeap = new PriorityQueue<>();
+        TreeSet<Pair> set = new TreeSet<>();
 
-        minHeap.offer(new Pair(src, 0));
+        set.add(new Pair(src, 0));
 
         result[src] = 0;
 
-        while (!minHeap.isEmpty()) {
-            Pair val = minHeap.poll();
+        while (!set.isEmpty()) {
+            Pair val = set.pollFirst();
 
             int node = val.node;
             int weight = val.weight;
 
-            if(result[node] < weight){
+            if (result[node] < weight) {
                 continue;
             }
 
             for (Pair neigh : adj.get(node)) {
                 if (weight + neigh.weight < result[neigh.node]) {
+                    if (result[neigh.node] != Integer.MAX_VALUE) {
+                        set.remove(new Pair(neigh.node, result[neigh.node]));
+                    }
+
                     result[neigh.node] = weight + neigh.weight;
-                    minHeap.offer(new Pair(neigh.node, result[neigh.node]));
+                    set.add(new Pair(neigh.node, result[neigh.node]));
                 }
             }
         }
-        int max = -1;
+        int max = 0;
 
         for (int i = 1; i < result.length; i++) {
-            if (result[i] == Integer.MAX_VALUE ) {
+            if (result[i] == Integer.MAX_VALUE) {
                 return -1;
             }
             max = Math.max(max, result[i]);
