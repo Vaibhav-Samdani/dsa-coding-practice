@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1382-balance-a-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1382-balance-a-binary-search-tree) |
+| [2685-count-the-number-of-complete-components](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [2685-count-the-number-of-complete-components](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Matrix
 |  |
 | ------- |
@@ -436,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
+| [2685-count-the-number-of-complete-components](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Union-Find
 |  |
 | ------- |
@@ -445,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
+| [2685-count-the-number-of-complete-components](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Bit Manipulation
 |  |
 | ------- |
