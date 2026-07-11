@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
 | [1288-remove-covered-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1288-remove-covered-intervals) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1833-maximum-ice-cream-bars) |
@@ -431,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 ## Union-Find
 |  |
 | ------- |
@@ -438,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -469,4 +472,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
