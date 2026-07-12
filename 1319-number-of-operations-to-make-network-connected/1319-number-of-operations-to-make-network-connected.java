@@ -1,44 +1,55 @@
 class Solution {
-    public int makeConnected(int n, int[][] connections) {
-        if(connections.length < n-1){
-            return -1;
-        }
-        boolean[] vis = new boolean[n];
+    int[] parent;
+    int[] rank;
 
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+    int find(int x) {
+        if (parent[x] == x) {
+            return x;
+        }
+
+        return parent[x] = find(parent[x]);
+    }
+
+    void Union(int x, int y) {
+        int px = find(x);
+        int py = find(y);
+
+        if (px == py) return;
+
+        if (rank[px] > rank[py]) {
+            parent[py] = px;
+        } else if (rank[py] > rank[px]) {
+            parent[px] = py;
+        } else {
+            parent[px] = py;
+            rank[py]++;
+        }
+    }
+
+    public int makeConnected(int n, int[][] connections) {
+        if (connections.length < n - 1) return -1;
+        parent = new int[n];
+        rank = new int[n];
 
         for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
+            parent[i] = i;
         }
 
         for (int i = 0; i < connections.length; i++) {
             int u = connections[i][0];
             int v = connections[i][1];
-            adj.get(u).add(v);
-            adj.get(v).add(u);
-        }
-        int count = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (!vis[i]) {
-                dfs(vis, adj, i);
-                count++;
+            int pu = find(u);
+            int pv = find(v);
+
+            if (pu == pv) {
+                continue;
+            } else {
+                Union(u, v);
+                n--;
             }
         }
 
-        return count-1;
-
+        return n - 1;
     }
-
-    void dfs(boolean[] vis, ArrayList<ArrayList<Integer>> adj, int curr) {
-        vis[curr] = true;
-
-        for (int i : adj.get(curr)) {
-            if (!vis[i]) {
-                dfs(vis, adj, i);
-            }
-        }
-
-    }
-
 }
