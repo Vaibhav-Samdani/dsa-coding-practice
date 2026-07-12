@@ -2,26 +2,27 @@ class Solution {
     int[] parent;
     int[] rank;
 
-    int find(int x){
-        if(parent[x] == x){
+    int find(int x) {
+        if (parent[x] == x) {
             return x;
         }
 
         return parent[x] = find(parent[x]);
     }
 
-    void Union(int x, int y){
+    void Union(int x, int y) {
 
         int px = find(x);
         int py = find(y);
 
-        if(px == py) return;
+        if (px == py)
+            return;
 
-        if(rank[px] > rank[py]){
+        if (rank[px] > rank[py]) {
             parent[py] = px;
-        }else if(rank[py] > rank[px]){
+        } else if (rank[py] > rank[px]) {
             parent[px] = py;
-        }else{
+        } else {
             parent[px] = py;
             rank[py]++;
         }
@@ -31,28 +32,24 @@ class Solution {
         parent = new int[26];
         rank = new int[26];
 
-        for(int i = 0;i<26;i++){
+        for (int i = 0; i < 26; i++) {
             parent[i] = i;
         }
 
-        for(String s : equations){
+        for (String s : equations) {
             char[] val = s.toCharArray();
 
-            if(val[1] == '='){
-                Union(val[0]-'a', val[3]-'a');
+            if (val[1] == '=') {
+                Union(val[0] - 'a', val[3] - 'a');
             }
         }
-        for(String s : equations){
+        for (String s : equations) {
             char[] val = s.toCharArray();
 
-            if(val[1] == '!'){
-                char first = val[0];
-                char second = val[3];
-
-                int pf = find(first-'a');
-                int ps = find(second-'a');
-
-                if(pf == ps) return false;
+            if (val[1] == '!') {
+                if (find(val[0] - 'a') == find(val[3] - 'a')) {
+                    return false;
+                }
             }
         }
 
