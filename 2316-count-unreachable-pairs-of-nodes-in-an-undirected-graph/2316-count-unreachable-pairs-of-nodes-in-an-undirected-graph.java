@@ -8,7 +8,7 @@ class Solution {
         parent = new int[n];
         rank = new int[n];
 
-        for(int i = 0; i<n;i++){
+        for (int i = 0; i < n; i++) {
             parent[i] = i;
         }
 
@@ -21,15 +21,15 @@ class Solution {
 
         for (int i = 0; i < parent.length; i++) {
             int root = find(i);
-            mp.put(parent[i], mp.getOrDefault(root, 0)+1);
+            mp.put(root, mp.getOrDefault(root, 0) + 1);
         }
 
         int rem = n;
         long ans = 0;
         // Formula -> size * ( rem - size );
-        for (Map.Entry<Integer, Integer> entry : mp.entrySet()) {
-            ans += 1L * entry.getValue() * (rem - entry.getValue());
-            rem -= entry.getValue();
+        for (int size : mp.values()) {
+            ans += 1L * size * (rem - size);
+            rem -= size;
         }
 
         return ans;
