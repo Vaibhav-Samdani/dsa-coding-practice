@@ -1,61 +1,80 @@
 class Solution {
+    int[] parent;
+	int[] rank;
+    class Edge {
+        int u, v, wt;
 
-    class Pair {
-        int node;
-        int weight;
-
-        Pair(int node, int weight) {
-            this.node = node;
-            this.weight = weight;
+        Edge(int u, int v, int wt) {
+            this.u = u;
+            this.v = v;
+            this.wt = wt;
         }
     }
 
     public int minCostConnectPoints(int[][] points) {
-        int V = points.length;
-        boolean[] vis = new boolean[V];
-        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
+        ArrayList<Edge> edges = new ArrayList<>();
 
-        for (int i = 0; i < V; i++) {
-            adj.add(new ArrayList<>());
-        }
+        for (int i = 0; i < points.length; i++) {
+            for (int j = i + 1; j < points.length; j++) {
 
-        for (int i = 0; i < V; i++) {
-            for (int j = i+1; j < V; j++) {
-                int x1 = points[i][0];
-                int y1 = points[i][1];
-                int x2 = points[j][0];
-                int y2 = points[j][1];
-                int dis = Math.abs(x2-x1) + Math.abs(y2-y1);
+                int dist = Math.abs(points[i][0] - points[j][0]) +
+                        Math.abs(points[i][1] - points[j][1]);
 
-                adj.get(i).add(new Pair(j,dis));
-                adj.get(j).add(new Pair(i,dis));
+                edges.add(new Edge(i, j, dist));
             }
         }
 
-        int minCost = 0;
+        	parent = new int[points.length];
+		rank = new int[points.length];
+		for (int i = 0; i<points.length; i++) {
+			parent[i] = i;
+		}
+		edges.sort((a, b)->Integer.compare(a.wt, b.wt));
+		int ans = 0;
+		int edgesUsed = 0;
+		for (int i = 0; i<edges.size(); i++) {
+			int u = edges.get(i).u;
+			int v = edges.get(i).v;
+			int w = edges.get(i).wt;
+			
+			if (find(u) != find(v)) {
+				ans += w;
+				union(u, v);
+				edgesUsed++;
+				
+				if (edgesUsed == points.length - 1)
+					break;
+			}
+			
+		}
+		
+		return ans;
 
-        // Min Heap;
-        PriorityQueue<Pair> pq = new PriorityQueue<>((a,b) -> Integer.compare(a.weight,b.weight));
-
-        pq.offer(new Pair(0,0));
-
-        while(!pq.isEmpty()){
-            Pair val = pq.poll();
-
-            if(vis[val.node]) continue;
-
-            vis[val.node] = true;
-
-            minCost += val.weight;
-
-            for(Pair neigh : adj.get(val.node)){
-                if(!vis[neigh.node]){
-                    pq.offer(neigh);
-                }
-            }
-        }
-
-        return minCost;
 
     }
+
+    int find(int x) {
+		if (parent[x] == x) {
+			return x;
+		}
+		
+		return parent[x] = find(parent[x]);
+	}
+	
+	void union(int x, int y) {
+		int px = find(x);
+		int py = find(y);
+		
+		if (px == py)
+			return;
+		
+		if (rank[px] < rank[py]) {
+			parent[px] = py;
+		} else if (rank[px] > rank[py]) {
+			parent[py] = px;
+		} else {
+			parent[py] = px;
+			rank[px]++;
+		}
+	}
 }
