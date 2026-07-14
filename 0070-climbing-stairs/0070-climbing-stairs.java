@@ -16,15 +16,5 @@ class Solution {
         return dp[n];
     }
 
-    int helper(int[] dp, int n) {
-        if (n < 0)
-            return 0;
-        if (n == 0)
-            return dp[n] = 1;
-
-        if (dp[n] != -1)
-            return dp[n];
-
-        return dp[n] = helper(dp, n - 1) + helper(dp, n - 2);
-    }
+    
 }
