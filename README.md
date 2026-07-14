@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
 | [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
+| [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0002-add-two-numbers) |
+| [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 ## Binary Search
 |  |
 | ------- |
@@ -267,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0198-house-robber](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0198-house-robber) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
+| [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [2140-solving-questions-with-brainpower](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2140-solving-questions-with-brainpower) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
+| [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 ## Simulation
 |  |
 | ------- |
