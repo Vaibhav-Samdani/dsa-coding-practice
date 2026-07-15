@@ -1,34 +1,32 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
-
         if(n == 1) return nums[0];
-        if(n == 2) return Math.max(nums[0],nums[1]);
-
+        if(n==2) return Math.max(nums[0], nums[1]);
         int[] dp = new int[n];
 
-        Arrays.fill(dp,0);
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[0], nums[1]);
+        Arrays.fill(dp,-1);
 
-        int ans2 = helper(n-1,dp,nums);
+        int firstVal = solve(dp,nums,0,n-2);
 
-        Arrays.fill(dp,0);
+        Arrays.fill(dp,-1);
 
-        dp[0] = 0;
-        dp[1] =  nums[1];
+        int secondVal = solve(dp,nums,1,n-1);
 
-        int ans1 = helper(n,dp,nums);
-
-        return Math.max(ans1,ans2);
+        return Math.max(firstVal,secondVal);
     }
 
-    int helper(int n, int[] dp, int[] nums){
-
-        for (int i = 2; i < n ; i++) {
-                dp[i] = Math.max(nums[i] + dp[i-2], dp[i - 1]);
+    int solve(int[] dp, int[] nums, int i, int n){
+        if(i>n){
+            return 0;
         }
 
-        return dp[n-1];
+        if(dp[i] != -1) return dp[i];
+
+        int take = nums[i] + solve(dp,nums,i+2,n);
+
+        int skip = solve(dp,nums,i+1,n);
+
+        return dp[i] = Math.max(take,skip);
     }
 }
