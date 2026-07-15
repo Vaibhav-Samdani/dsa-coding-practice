@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Recursion
 |  |
@@ -504,4 +505,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1291-sequential-digits) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
