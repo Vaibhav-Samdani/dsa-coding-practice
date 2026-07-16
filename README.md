@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0990-satisfiability-of-equality-equations) |
+| [1143-longest-common-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1189-maximum-number-of-balloons) |
 | [3612-process-string-with-special-operations-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3838-weighted-word-mapping) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [1143-longest-common-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1143-longest-common-subsequence) |
 | [2140-solving-questions-with-brainpower](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2140-solving-questions-with-brainpower) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3693-climbing-stairs-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3693-climbing-stairs-ii) |
