@@ -4,7 +4,7 @@ class Solution {
         int n = stones.length;
 
         if (n > 1 && stones[1] != 1) return false;
-        dp = new int[stones.length][stones.length];
+        dp = new int[stones.length+1][stones.length];
         
         for(int i = 0; i<stones.length;i++){
             Arrays.fill(dp[i],-1);
