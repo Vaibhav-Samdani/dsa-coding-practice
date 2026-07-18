@@ -8,13 +8,8 @@ class Solution {
             return false;
         dp = new boolean[n][n + 1];
 
-        for (int i = 0; i < n + 2; i++) {
-            for (int j = 0; j < n + 1; j++) {
-                if (i == stones.length - 1) {
-                    dp[i][j] = true;
-                }
-            }
-        }
+        for (int k = 0; k <= n; k++)
+            dp[n - 1][k] = true;
     
 
         for (int i = n-2; i >= 1; i--) {
