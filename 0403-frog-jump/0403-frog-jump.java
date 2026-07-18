@@ -1,13 +1,16 @@
 class Solution {
     int[][] dp; 
     public boolean canCross(int[] stones) {
+        int n = stones.length;
+
+        if (n > 1 && stones[1] != 1) return false;
         dp = new int[stones.length][stones.length];
         
         for(int i = 0; i<stones.length;i++){
             Arrays.fill(dp[i],-1);
         }
 
-        return solve(stones, 1, 0);
+        return solve(stones, 1, 1);
     }
 
     boolean solve(int[] stones, int k, int i) {
@@ -26,7 +29,7 @@ class Solution {
 
         boolean t1 = j1 >= 0 && k != 1 ? solve(stones, k - 1, j1) : false;
         boolean t2 = j2 >= 0 ? solve(stones, k, j2) : false;
-        boolean t3 = j3 >= 0 && i != 0 ? solve(stones, k + 1, j3) : false;
+        boolean t3 = j3 >= 0 ? solve(stones, k + 1, j3) : false;
 
         if(t1 || t2 || t3){
             dp[k][i] = 1;
