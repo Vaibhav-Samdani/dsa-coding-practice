@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0136-single-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0072-edit-distance](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
+| [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0257-binary-tree-paths) |
@@ -282,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0198-house-robber) |
@@ -503,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 ## Simulation
 |  |
@@ -531,4 +536,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
