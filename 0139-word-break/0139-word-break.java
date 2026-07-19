@@ -1,29 +1,25 @@
 class Solution {
-    Boolean[] dp;
+    boolean[] dp;
+
     public boolean wordBreak(String s, List<String> wordDict) {
-        dp = new Boolean[s.length()];
+        int n = s.length();
+        dp = new boolean[n + 1];
 
-        return solve(0,s, wordDict);
-    }
-
-    boolean solve(int i, String s, List<String> dict){
-        if(s.length() == i) return true;
-
-        if(dict.contains(s)){
+        dp[n] = true;
+        if (wordDict.contains(s)) {
             return true;
         }
 
-        if(dp[i] != null) return dp[i];
-
-        for(int k = i + 1; k <= s.length(); k++){
-
-            String temp = s.substring(i,k);
-
-            if(dict.contains(temp) && solve(k,s,dict)){
-                return dp[i] = true;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int k = i + 1; k <= n; k++) {
+                String temp = s.substring(i,k);
+                if(wordDict.contains(temp) && dp[k]){
+                    dp[i] = true;
+                }
             }
         }
 
-        return dp[i] = false;
+        return dp[0];
     }
+
 }
