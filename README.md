@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
+| [0887-super-egg-drop](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0887-super-egg-drop) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0300-longest-increasing-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0300-longest-increasing-subsequence) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
+| [0887-super-egg-drop](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0887-super-egg-drop) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 ## Sliding Window
 |  |
@@ -291,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0518-coin-change-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0887-super-egg-drop](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0887-super-egg-drop) |
 | [1143-longest-common-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1143-longest-common-subsequence) |
 | [2140-solving-questions-with-brainpower](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2140-solving-questions-with-brainpower) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
