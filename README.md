@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
 | [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
+| [0518-coin-change-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0403-frog-jump](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0403-frog-jump) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
+| [0518-coin-change-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0518-coin-change-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1143-longest-common-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1143-longest-common-subsequence) |
 | [2140-solving-questions-with-brainpower](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2140-solving-questions-with-brainpower) |
