@@ -30,7 +30,7 @@ class Solution {
             temp = temp.next;
         }
         
-        temp.next = temp == null || temp.next == null ? null : temp.next.next;
+        temp.next = temp.next.next;
 
         return head;
     }
