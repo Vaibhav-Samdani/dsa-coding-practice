@@ -1,7 +1,6 @@
 class Trie {
     boolean isEnd;
     Trie children[];
-    char val;
 
     public Trie() {
         children = new Trie[26];
@@ -11,11 +10,9 @@ class Trie {
         Trie obj = this;
         for (int i = 0; i < word.length(); i++) {
             char ch = word.charAt(i);
-            obj.val = ch;
             if (obj.children[ch - 'a'] == null) {
                 obj.children[ch - 'a'] = new Trie();
             }
-            obj.children[ch - 'a'].val = ch;
             obj = obj.children[ch - 'a'];
         }
         obj.isEnd = true;
