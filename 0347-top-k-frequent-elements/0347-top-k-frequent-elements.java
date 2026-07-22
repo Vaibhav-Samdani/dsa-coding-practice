@@ -20,14 +20,15 @@ class Solution {
 
         int idx = 0;
 
-        for(int i = nums.length; i >= 0; i--){
+        for(int i = nums.length; i >= 1 && idx < k; i--){
             if(bucket[i] == null) continue;
 
-            for(int j = bucket[i].size()-1; j>=0;j--){
-                ans[idx++] = bucket[i].get(j);
+            for(int j : bucket[i] ){
+                ans[idx++] = j;
+                if(idx == k) break;
             }
+                if(idx == k) break;
 
-            if(idx == k) break;
         }
 
         return ans;
