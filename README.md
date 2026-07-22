@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0260-single-number-iii) |
 | [0300-longest-increasing-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0300-longest-increasing-subsequence) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
+| [0238-product-of-array-except-self](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0238-product-of-array-except-self) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1732-find-the-highest-altitude) |
 ## String
