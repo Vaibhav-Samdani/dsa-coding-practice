@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
