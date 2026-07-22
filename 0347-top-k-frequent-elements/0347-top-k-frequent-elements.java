@@ -3,21 +3,31 @@ class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer, Integer> mp = new HashMap<>();
 
-        PriorityQueue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.getValue(), b.getValue()));
+        ArrayList<Integer>[] bucket = new ArrayList[nums.length + 1];
 
         for (int i = 0; i < nums.length; i++) {
             mp.put(nums[i], mp.getOrDefault(nums[i], 0) + 1);
         }
 
         for (Map.Entry<Integer, Integer> st : mp.entrySet()) {
-            pq.offer(st);
-            if(pq.size() > k) pq.poll();
+            int freq = st.getValue();
+            if(bucket[freq] == null) bucket[freq] = new ArrayList<>();
+
+            bucket[freq].add(st.getKey());
         }
 
         int[] ans = new int[k];
 
-        for(int i = k-1; i >= 0; i--){
-            ans[i] = pq.poll().getKey();
+        int idx = 0;
+
+        for(int i = nums.length; i >= 0; i--){
+            if(bucket[i] == null) continue;
+
+            for(int j = bucket[i].size()-1; j>=0;j--){
+                ans[idx++] = bucket[i].get(j);
+            }
+
+            if(idx == k) break;
         }
 
         return ans;
