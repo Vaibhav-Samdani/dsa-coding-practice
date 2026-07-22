@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0004-median-of-two-sorted-arrays) |
+| [0036-valid-sudoku](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
@@ -481,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0036-valid-sudoku) |
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
 | [0200-number-of-islands](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
