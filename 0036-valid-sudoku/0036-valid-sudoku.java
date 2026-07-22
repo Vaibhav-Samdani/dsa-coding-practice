@@ -5,10 +5,10 @@ class Solution {
         for (int row = 0; row < 9; row++) {
             for (int col = 0; col < 9; col++) {
                 if (board[row][col] == '.') continue;
-                String s = board[row][col] + " @ " + "i = " + row;
-                String s2 = board[row][col] + " @ " + "j = " + col;
-                String s3 = board[row][col] + " @ " + "i = " + row / 3 + " j = " + col / 3;
-                if (!st.add(s) || !st.add(s2) || !st.add(s3)) return false;
+                String rowKey = board[row][col] + "R" + row;
+                String colKey = board[row][col] + "C" + col;
+                String boxKey = board[row][col] + "B" + (row / 3) + (col / 3);
+                if (!st.add(rowKey) || !st.add(colKey) || !st.add(boxKey)) return false;
             }
         }
 
