@@ -10,7 +10,7 @@ class Solution {
         } 
         for(int i = 0; i < t.length();i++){
             char ch = t.charAt(i);
-
+            if(mp[ch-'a'] == 0) return false;
             mp[ch-'a']--;
         } 
 
