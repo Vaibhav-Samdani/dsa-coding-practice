@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
+| [0125-valid-palindrome](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0086-partition-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0086-partition-list) |
+| [0125-valid-palindrome](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
