@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0136-single-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0152-maximum-product-subarray) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0198-house-robber) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0004-median-of-two-sorted-arrays) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0300-longest-increasing-subsequence) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0125-valid-palindrome](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0125-valid-palindrome) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0151-reverse-words-in-a-string) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
