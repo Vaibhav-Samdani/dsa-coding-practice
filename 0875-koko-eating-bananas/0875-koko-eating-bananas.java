@@ -29,14 +29,7 @@ class Solution {
         int i = 0;
 
         while (i < piles.length) {
-            if (piles[i] < mid) {
-                h--;
-            } else {
-                int val = piles[i] / mid;
-                int k = piles[i] % mid == 0 ? piles[i] / mid : piles[i] / mid + 1;
-
-                h -= k;
-            }
+            h -= (piles[i] + mid - 1) / mid;
             i++;
         }
         return h >= 0;
