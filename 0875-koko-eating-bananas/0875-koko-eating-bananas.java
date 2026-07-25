@@ -10,19 +10,16 @@ class Solution {
 
         high++;
 
-        int ans = 0;
-
         while (low < high) {
             int mid = low + (high - low) / 2;
 
             if (isPossible(piles, h, mid)) {
-                ans = mid;
                 high = mid;
             } else {
                 low = mid + 1;
             }
         }
-        return ans;
+        return low;
     }
 
     boolean isPossible(int[] piles, int h, int mid) {
