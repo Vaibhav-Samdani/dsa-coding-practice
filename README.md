@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0704-binary-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0875-koko-eating-bananas](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0875-koko-eating-bananas) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0990-satisfiability-of-equality-equations) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0875-koko-eating-bananas) |
 | [0887-super-egg-drop](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0887-super-egg-drop) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
