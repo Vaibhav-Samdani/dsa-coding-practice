@@ -15,7 +15,7 @@ class Solution {
 
             freq2[s2.charAt(j)-'a']++;
 
-            if(j-i+1 > m){
+            while( i<j && j-i+1 > m){
                 freq2[s2.charAt(i)-'a']--;
                 i++;
             }
