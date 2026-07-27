@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
+| [0206-reverse-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0206-reverse-linked-list) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Math
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0002-add-two-numbers) |
+| [0206-reverse-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0206-reverse-linked-list) |
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 ## Binary Search
 |  |
