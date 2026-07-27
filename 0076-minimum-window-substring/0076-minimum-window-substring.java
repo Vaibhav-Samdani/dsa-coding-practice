@@ -28,10 +28,10 @@ class Solution {
                     minI = i;
                     minJ = j;
                 }
-
-                if(mp.containsKey(s.charAt(i))){
-                    mp.put(s.charAt(i),mp.get(s.charAt(i))+1);
-                    if(mp.get(s.charAt(i)) > 0){
+                char left = s.charAt(i);
+                if(mp.containsKey(left)){
+                    mp.put(left,mp.get(left)+1);
+                    if(mp.get(left) > 0){
                         count--;
                     }
                 }
