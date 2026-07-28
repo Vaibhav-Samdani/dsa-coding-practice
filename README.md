@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0990-satisfiability-of-equality-equations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0990-satisfiability-of-equality-equations) |
 | [1143-longest-common-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1189-maximum-number-of-balloons) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3612-process-string-with-special-operations-i) |
 | [3838-weighted-word-mapping](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3838-weighted-word-mapping) |
 ## Sorting
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1288-remove-covered-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1833-maximum-ice-cream-bars) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Counting
 |  |
 | ------- |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1833-maximum-ice-cream-bars) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Divide and Conquer
 |  |
 | ------- |
