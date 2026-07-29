@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0138-copy-list-with-random-pointer](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0217-contains-duplicate) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0138-copy-list-with-random-pointer](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0206-reverse-linked-list) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0208-implement-trie-prefix-tree) |
@@ -629,4 +632,8 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0208-implement-trie-prefix-tree) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
