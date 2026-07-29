@@ -45,7 +45,7 @@ class Solution {
     }
 
     ListNode nextGroup(ListNode node, int k) {
-        for (int i = 0; i < k - 1; i++) {
+        for (int i = 1; i < k; i++) {
             if (node == null) return null;
             node = node.next;
         }
