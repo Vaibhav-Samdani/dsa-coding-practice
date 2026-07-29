@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0136-single-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
 | [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0173-binary-search-tree-iterator) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
