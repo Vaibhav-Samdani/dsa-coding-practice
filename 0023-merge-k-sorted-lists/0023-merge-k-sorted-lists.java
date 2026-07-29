@@ -10,45 +10,26 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        ListNode ans = mergeSort(lists,0,lists.length-1);
-        return ans;
-    }
+        if(lists.length == 0) return null;
 
-    ListNode mergeSort(ListNode[] nums, int start, int end) {
-        if(nums.length <= 0) return null;
-        if (start == end) {
-            return nums[start];
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((a,b)->Integer.compare(a.val,b.val));
+
+        for(ListNode list : lists){
+            if(list != null) pq.offer(list);
         }
-        int mid = start + (end - start) / 2;
 
-        ListNode left = mergeSort(nums, start, mid);
-        ListNode right = mergeSort(nums, mid + 1, end);
-
-        return mergeTwoList(left, right);
-    }
-
-
-    ListNode mergeTwoList(ListNode left, ListNode right){
         ListNode dummy = new ListNode(-1);
+
         ListNode temp = dummy;
 
-        while(left != null && right != null){
-            if(left.val <= right.val){
-                temp.next = left;
-                left = left.next;
-                temp = temp.next;
-            }else{
-                temp.next = right;
-                right = right.next;
-                temp = temp.next;
-            }
-        }
+        while(!pq.isEmpty()){
+            ListNode node = pq.poll();
 
-        if(left != null){
-            temp.next = left;
-        }
-        if(right != null){
-            temp.next = right;
+            temp.next = node;
+            temp = temp.next;
+
+            if(node.next != null) pq.offer(node.next);
+
         }
 
         return dummy.next;
