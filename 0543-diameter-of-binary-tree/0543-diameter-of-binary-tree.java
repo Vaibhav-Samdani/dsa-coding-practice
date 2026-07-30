@@ -15,23 +15,20 @@
  */
 class Solution {
     int ans;
-
     public int diameterOfBinaryTree(TreeNode root) {
         ans = 0;
-        hl(root);
+        dfs(root);
+
         return ans;
     }
 
-    int hl(TreeNode root) {
+    int dfs(TreeNode root){
+        if(root == null) return 0;
+        int left = dfs(root.left);
+        int right = dfs(root.right);
 
-        if (root == null)
-            return 0;
+        ans = Math.max(ans,left+right);
 
-        int left = hl(root.left);
-        int right = hl(root.right);
-
-        ans = Math.max(ans, left + right);
-
-        return Math.max(right,left) + 1;
+        return Math.max(left,right)+1;
     }
 }
