@@ -14,29 +14,22 @@
  * }
  */
 class Solution {
-
-    boolean res = true;
-
+    boolean ans;
     public boolean isBalanced(TreeNode root) {
-        
-        hl(root);
+        ans = true;
+        dfs(root);
 
-        return res;
-        
+        return ans;
     }
 
-    int hl(TreeNode root) {
-        if (root == null)
-            return 0;
+    int dfs(TreeNode root){
+        if(root == null) return 0;
 
-        int left = hl(root.left);
-        int right = hl(root.right);
+        int left = dfs(root.left);
+        int right = dfs(root.right);
+        
+        ans = (Math.abs(left - right) <= 1) && ans;
 
-        if(Math.abs(right - left) > 1) {
-            res = false; 
-        }
-
-        return Math.max(left,right) + 1;
-
+        return Math.max(left,right)+1;
     }
 }
