@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0853-car-fleet](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0875-koko-eating-bananas) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0990-satisfiability-of-equality-equations) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0887-super-egg-drop](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0887-super-egg-drop) |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0853-car-fleet](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0853-car-fleet) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1288-remove-covered-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 | [1382-balance-a-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 ## Heap (Priority Queue)
 |  |
@@ -278,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0703-kth-largest-element-in-a-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1046-last-stone-weight) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Merge Sort
@@ -336,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 ## Reservoir Sampling
 |  |
 | ------- |
@@ -676,4 +682,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0572-subtree-of-another-tree) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
