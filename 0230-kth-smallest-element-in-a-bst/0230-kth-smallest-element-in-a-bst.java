@@ -18,21 +18,22 @@ class Solution {
     int ans;
 
     public int kthSmallest(TreeNode root, int k) {
-        n = 0;
-        ans = 0;
-        dfs(root, k);
-        return ans;
-    }
+        Stack<TreeNode> st = new Stack<>();
 
-    void dfs(TreeNode root, int k) {
-        if (root == null) return;
+        while (!st.isEmpty() || root != null) {
+            while (root != null) {
+                st.push(root);
+                root = root.left;
+            }
 
-        dfs(root.left, k);
-        n++;
-        if (k == n) {
-            ans = root.val;
-            return;
+            root = st.pop();
+
+            if (--k == 0) return root.val;
+
+            root = root.right;
         }
-        dfs(root.right, k);
+        return -1;
     }
+
+    
 }
