@@ -8,8 +8,7 @@ class Solution {
             int y = maxHeap.poll();
             int x = maxHeap.poll();
 
-            if(x == y) continue;
-            else if(x != y){
+            if(x != y){
                 maxHeap.offer(y-x);
             }
         }
