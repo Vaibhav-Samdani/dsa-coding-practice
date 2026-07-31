@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
+| [1046-last-stone-weight](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1046-last-stone-weight) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1288-remove-covered-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0703-kth-largest-element-in-a-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
 | [0912-sort-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0912-sort-an-array) |
+| [1046-last-stone-weight](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1046-last-stone-weight) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Merge Sort
 |  |
