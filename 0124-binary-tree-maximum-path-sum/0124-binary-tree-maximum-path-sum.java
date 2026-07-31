@@ -14,31 +14,22 @@
  * }
  */
 class Solution {
-    int sum;
+    int ans = Integer.MIN_VALUE;
+
     public int maxPathSum(TreeNode root) {
-        sum = Integer.MIN_VALUE;
+        dfs(root);
 
-        hl(root);
-
-        return sum;
+        return ans;
     }
 
-    int hl(TreeNode root){
-        if(root == null) return 0;
+    int dfs(TreeNode root) {
+        if (root == null) return 0;
 
-        int left = hl(root.left);
-        int right = hl(root.right);
+        int left = Math.max(0,dfs(root.left));
+        int right = Math.max(0,dfs(root.right));
 
-        int koi_ek_acha = Math.max(left, right) + root.val;
+        ans = Math.max(left + right + root.val, ans);
 
-        int dono_khrab = root.val;
-
-        int sb_shi = left+right+root.val;
-
-        sum = Math.max(sum,Math.max(Math.max(koi_ek_acha,dono_khrab), sb_shi));
-
-        return Math.max(koi_ek_acha,dono_khrab);
-
-
+        return Math.max(left,right) + root.val;
     }
 }
