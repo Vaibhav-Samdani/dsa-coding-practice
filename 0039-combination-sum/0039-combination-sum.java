@@ -14,10 +14,10 @@ class Solution {
             return;
         }
 
+        if (target < 0) {
+            return;
+        }
         for (int j = i; j < nums.length; j++) {
-            if (target < nums[j]) {
-                return;
-            }
             curr.add(nums[j]);
             helper(nums, target - nums[j], j, curr);
             curr.remove(curr.size() - 1);
