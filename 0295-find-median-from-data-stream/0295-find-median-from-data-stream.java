@@ -12,7 +12,7 @@ class MedianFinder {
         maxHeap.offer(num);
         minHeap.offer(maxHeap.poll());
 
-        if(!minHeap.isEmpty() && maxHeap.size() < minHeap.size()){
+        if(maxHeap.size() < minHeap.size()){
             maxHeap.offer(minHeap.poll());
         }
     }
