@@ -1,10 +1,10 @@
 class Solution {
-    List<List<Integer>> ans;
+    Set<List<Integer>> ans;
     public List<List<Integer>> combinationSum(int[] nums, int target) {
-        ans = new ArrayList<>();
+        ans = new HashSet<>();
         Arrays.sort(nums);
         helper(nums,target,0,new ArrayList<>());
-        return ans;
+        return new ArrayList<>(ans);
     }
 
     void helper(int[] nums, int target, int i, List<Integer> curr){
