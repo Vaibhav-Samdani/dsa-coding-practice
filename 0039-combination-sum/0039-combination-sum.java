@@ -1,10 +1,10 @@
 class Solution {
-    Set<List<Integer>> ans;
+    List<List<Integer>> ans;
     public List<List<Integer>> combinationSum(int[] nums, int target) {
-        ans = new HashSet<>();
+        ans = new ArrayList<>();
         Arrays.sort(nums);
         helper(nums,target,0,new ArrayList<>());
-        return new ArrayList<>(ans);
+        return ans;
     }
 
     void helper(int[] nums, int target, int i, List<Integer> curr){
@@ -16,9 +16,6 @@ class Solution {
 
         if(i == nums.length) return;
 
-        // while(i > 0 && nums[i] == nums[i-1]){
-        //     i++;
-        // }
 
         curr.add(nums[i]);
 
@@ -27,7 +24,12 @@ class Solution {
 
         curr.remove(curr.size()-1);
 
-        helper(nums,target,i+1,curr);
+        int j = i+1;
+
+        while(j < nums.length && nums[j] == nums[j-1]){
+            j++;
+        }
+        helper(nums,target,j,curr);
 
     }
 }
