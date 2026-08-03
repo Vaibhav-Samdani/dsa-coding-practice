@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0146-lru-cache](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Math
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0239-sliding-window-maximum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
@@ -338,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0208-implement-trie-prefix-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0901-online-stock-span](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0901-online-stock-span) |
 | [0981-time-based-key-value-store](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0981-time-based-key-value-store) |
