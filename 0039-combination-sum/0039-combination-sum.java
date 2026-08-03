@@ -15,7 +15,7 @@ class Solution {
         }
 
         for (int j = i; j < nums.length; j++) {
-            if (target < 0) {
+            if (target < nums[j]) {
                 return;
             }
             curr.add(nums[j]);
