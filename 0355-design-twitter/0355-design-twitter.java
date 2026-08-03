@@ -1,69 +1,98 @@
 class Twitter {
 
     class Tweet {
-        int tweetId;
+        int id;
         int time;
 
         Tweet(int tweetId, int time) {
-            this.tweetId = tweetId;
+            this.id = tweetId;
             this.time = time;
         }
     }
 
-    HashMap<Integer, ArrayList<Tweet>> mp;
-    int time;
-    int[][] followList;
+    class Node {
+        int userId;
+        int index; // Current tweet index in this user's list
+        Tweet tweet;
+
+        Node(int userId, int index, Tweet tweet) {
+            this.userId = userId;
+            this.index = index;
+            this.tweet = tweet;
+        }
+    }
+
+    private int time;
+    private Map<Integer, List<Tweet>> tweetMap;
+    private Map<Integer, Set<Integer>> followMap;
 
     public Twitter() {
-        mp = new HashMap<>();
-        time = 0;
-        followList = new int[501][501];
+     time = 0;
+            tweetMap = new HashMap<>();
+            followMap = new HashMap<>();
     }
 
     public void postTweet(int userId, int tweetId) {
-        if (!mp.containsKey(userId)) {
-            mp.put(userId, new ArrayList<>());
+        if (!tweetMap.containsKey(userId)) {
+            tweetMap.put(userId, new ArrayList<>());
         }
-        mp.get(userId).add(new Tweet(tweetId, time++));
+        List<Tweet> tweets = tweetMap.get(userId);
+        tweets.add(new Tweet(tweetId, time++));
+
+        // Keep only latest 10 tweets
+        if (tweets.size() > 10) {
+            tweets.remove(0);
+        }
     }
 
     public List<Integer> getNewsFeed(int userId) {
-        ArrayList<Tweet> curr = new ArrayList<>();
+        List<Integer> ans = new ArrayList<>();
 
-        if (mp.containsKey(userId)) {
-            curr.addAll(mp.get(userId));
+        PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> b.tweet.time - a.tweet.time);
+
+        // Add yourself
+        if (tweetMap.containsKey(userId)) {
+            List<Tweet> tweets = tweetMap.get(userId);
+            int last = tweets.size() - 1;
+            pq.offer(new Node(userId, last, tweets.get(last)));
         }
 
-        PriorityQueue<Tweet> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.time, b.time));
+        // Add followees
+        for (int followee : followMap.getOrDefault(userId, Collections.emptySet())) {
+            if (!tweetMap.containsKey(followee)) continue;
 
-        for (int i = 0; i < 501; i++) {
-            if (followList[userId][i] == 1 && mp.containsKey(i)) {
-                curr.addAll(mp.get(i));
+            List<Tweet> tweets = tweetMap.get(followee);
+            int last = tweets.size() - 1;
+
+            pq.offer(new Node(followee, last, tweets.get(last)));
+        }
+
+        while (!pq.isEmpty() && ans.size() < 10) {
+            Node curr = pq.poll();
+            ans.add(curr.tweet.id);
+
+            // Push previous tweet of same user
+            if (curr.index > 0) {
+                int prev = curr.index - 1;
+                List<Tweet> tweets = tweetMap.get(curr.userId);
+
+                pq.offer(new Node(curr.userId, prev, tweets.get(prev)));
             }
         }
 
-        for (int i = 0; i < curr.size(); i++) {
-            pq.offer(curr.get(i));
-
-            if (pq.size() > 10) pq.poll();
-        }
-
-        List<Integer> ans = new ArrayList<>();
-        int n = pq.size();
-        for (int i = 0; i < n; i++) {
-            ans.add(pq.poll().tweetId);
-        }
-
-        Collections.reverse(ans);
         return ans;
     }
 
     public void follow(int followerId, int followeeId) {
-        followList[followerId][followeeId] = 1;
+        if (followerId == followeeId) return;
+
+        followMap.computeIfAbsent(followerId, k -> new HashSet<>()).add(followeeId);
     }
 
     public void unfollow(int followerId, int followeeId) {
-        followList[followerId][followeeId] = 0;
+        if (followerId == followeeId) return;
+
+        if (followMap.containsKey(followerId)) followMap.get(followerId).remove(followeeId);
     }
 }
 /**
