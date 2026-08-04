@@ -17,6 +17,7 @@ class Solution {
 
         for(int i = start; i<nums.length;i++){
             if(i > 0 && nums[i] == nums[i-1]) continue;
+            if(nums[i] > target) continue;
 
             curr.add(nums[i]);
 
