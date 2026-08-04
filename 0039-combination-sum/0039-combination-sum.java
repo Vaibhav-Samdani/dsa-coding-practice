@@ -7,25 +7,25 @@ class Solution {
         return ans;
     }
 
-    void helper(int[] nums, int target, int i, List<Integer> curr){
+    void helper(int[] nums, int target, int start, List<Integer> curr){
         if (target < 0) return;
         if(target == 0){
             ans.add(new ArrayList<>(curr));
             return;
         }
 
-        if(i == nums.length) return;
 
-        curr.add(nums[i]);
+        for(int i = start; i<nums.length;i++){
+            if(i > 0 && nums[i] == nums[i-1]) continue;
 
-        helper(nums,target-nums[i],i,curr);
+            curr.add(nums[i]);
 
-        curr.remove(curr.size()-1);
+            helper(nums,target - nums[i],i,curr);
 
-        int j = i+1;
-        while(j < nums.length && nums[j] == nums[i]){
-            j++;
+            curr.remove(curr.size()-1);
+
         }
-        helper(nums,target,j,curr);
+
+        
     }
 }
