@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0033-search-in-rotated-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
@@ -664,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0131-palindrome-partitioning) |
