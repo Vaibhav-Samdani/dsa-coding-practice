@@ -8,25 +8,25 @@ class Solution {
         return ans;
     }
 
-    void helper(int[] nums, int target, int i, List<Integer> curr) {
-        if (target == 0) {
+    void helper(int[] nums, int target, int start, List<Integer> curr) {
+         if (target < 0) return;
+        if(target == 0){
             ans.add(new ArrayList<>(curr));
             return;
         }
-        if (i == nums.length) return;
-        if (target < 0) return;
 
-        curr.add(nums[i]);
 
-        // helper(nums,target-nums[i],i+1,curr);
-        helper(nums, target - nums[i], i + 1, curr);
+        for(int i = start; i<nums.length;i++){
+            if(i > start && nums[i] == nums[i-1]) continue;
+            if(nums[i] > target) break;
 
-        curr.remove(curr.size() - 1);
+            curr.add(nums[i]);
 
-        int j = i + 1;
+            helper(nums,target - nums[i],i+1,curr);
 
-        while (j < nums.length && nums[j] == nums[i]) j++;
+            curr.remove(curr.size()-1);
 
-        helper(nums, target, j, curr);
+        }
+
     }
 }
