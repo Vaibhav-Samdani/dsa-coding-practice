@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0072-edit-distance) |
@@ -404,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
@@ -667,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0046-permutations) |
@@ -713,4 +716,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0973-k-closest-points-to-origin) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
