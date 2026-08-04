@@ -1,40 +1,29 @@
 class Solution {
     List<List<Integer>> ans;
+    Set<Integer> st;
+
     public List<List<Integer>> permute(int[] nums) {
         ans = new ArrayList<>();
-        helper(nums,0);
+        st = new HashSet<>();
+        helper(nums, new ArrayList<>());
         return ans;
     }
 
-    void helper(int[] nums, int start){
-        if(start == nums.length) {
-            List<Integer> curr = new ArrayList<>();
-            for(int i = 0; i<nums.length;i++){
-                curr.add(nums[i]);
-            }
-            ans.add(curr);
+    void helper(int[] nums, List<Integer> curr) {
+        if (curr.size() == nums.length) {
+            ans.add(new ArrayList<>(curr));
             return;
         }
 
-        for(int i = start; i < nums.length;i++){
-            // curr.add(nums[i]);
-            reverse(nums,start,i);
-            helper(nums,start+1);
-            reverse(nums,start,i);
-            // helper(nums,i+1);
-            // curr.remove(curr.size()-1);
-
+        for (int i = 0; i < nums.length; i++) {
+            if (!st.contains(nums[i])) {
+                curr.add(nums[i]);
+                st.add(nums[i]);
+                helper(nums, curr);
+                curr.remove(curr.size() - 1);
+                st.remove(nums[i]);
+            }
         }
     }
 
-    void reverse(int[] nums,int i, int j){
-        if(i==j) return;
-
-        int mid = i + (j-i)/2;
-        for(int k = i; k<=mid;k++){
-            int temp = nums[k];
-            nums[k] = nums[j + i - k];
-            nums[j + i - k] = temp;
-        }
-    }
 }
