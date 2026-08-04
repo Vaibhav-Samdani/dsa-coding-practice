@@ -6,31 +6,27 @@ class Solution {
         Stack<Character> st = new Stack<>();
         ans = new ArrayList<>();
 
-        solve(n,0,0, st);
+        solve(n,0,0, new StringBuilder());
 
         return ans;
     }
 
-    void solve(int n, int open, int close, Stack<Character> st) {
+    void solve(int n, int open, int close, StringBuilder curr) {
         if (close == n && open == n) {
-            StringBuilder sb = new StringBuilder();
-            for (char c : st) {
-                sb.append(c);
-            }
-            ans.add(sb.toString());
+            ans.add(curr.toString());
             return;
         }
 
         if(open < n){
-            st.push('(');
-            solve(n,open+1,close,st);
-            st.pop();
+            curr.append('(');
+            solve(n,open+1,close,curr);
+            curr.deleteCharAt(curr.length()-1);
         }
 
         if(close < open){
-            st.push(')');
-            solve(n,open,close+1,st);
-            st.pop();
+            curr.append(')');
+            solve(n,open,close+1,curr);
+            curr.deleteCharAt(curr.length()-1);
         }
         
         
