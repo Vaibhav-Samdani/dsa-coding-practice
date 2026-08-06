@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0132-palindrome-partitioning-ii) |
@@ -485,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0101-symmetric-tree) |
@@ -606,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0036-valid-sudoku](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0036-valid-sudoku) |
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
@@ -674,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0040-combination-sum-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0131-palindrome-partitioning) |
