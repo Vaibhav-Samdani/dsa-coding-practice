@@ -1,38 +1,37 @@
 class Solution {
     List<List<String>> ans;
-
     public List<List<String>> partition(String s) {
         ans = new ArrayList<>();
-        solve(s, new ArrayList<>(), 0);
-        return ans;
+
+        solve(s,0,new ArrayList<>());
+
+        return ans; 
     }
 
-    void solve(String s, List<String> temp, int i) {
-        if (s.length() == i) {
-            ans.add(new ArrayList<>(temp));
+    void solve(String s, int start, List<String> curr) {
+        if (start == s.length()) {
+            ans.add(new ArrayList<>(curr));
             return;
         }
 
-        for (int k = i; k < s.length(); k++) {
-            String rem = s.substring(i, k + 1);
-
-            if (check(rem)) {
-                temp.add(rem);
-                solve(s, temp, k + 1);
-                temp.remove(temp.size() - 1);
+        for (int i = start; i < s.length(); i++) {
+            String sb = s.substring(start,i+1);
+            if(isPalindrome(sb)){
+                curr.add(sb);
+                solve(s,i+1,curr);
+                curr.remove(curr.size()-1);
             }
         }
     }
 
-    boolean check(String s) {
-        if (s.length() == 1) return true;
+    boolean isPalindrome(String s){
+        if(s.length()==1||s.length()==0) return true;
 
-        for (int i = 0; i < s.length() / 2; i++) {
-            char A = s.charAt(i);
-            char B = s.charAt(s.length() - i - 1);
-            if (A != B) return false;
+        for(int i = 0; i<s.length()/2;i++){
+            if(s.charAt(i) != s.charAt(s.length()-i-1)){
+                return false;
+            }
         }
-
         return true;
     }
 }
