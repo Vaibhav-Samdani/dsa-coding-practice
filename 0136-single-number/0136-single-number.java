@@ -1,9 +1,11 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int num = 0;
-        for(int el: nums){
-            num ^= el;
+        int val = 0;
+
+        for(int i: nums){
+            val ^= i;
         }
-        return num;
+
+        return val;
     }
 }
