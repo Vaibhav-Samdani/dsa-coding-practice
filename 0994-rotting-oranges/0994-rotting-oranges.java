@@ -1,72 +1,59 @@
 class Solution {
-    class Node {
+    class Pair {
         int i;
         int j;
 
-        Node(int i, int j) {
+        Pair(int i, int j) {
             this.i = i;
             this.j = j;
         }
     }
-
     public int orangesRotting(int[][] grid) {
-        if (grid == null || grid.length == 0)
-            return -1;
-        int m = grid.length;
-        int n = grid[0].length;
-        int count = 0;
-        Queue<Node> qu = new LinkedList<>();
+        Queue<Pair> q = new LinkedList<>();
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == 2) {
-                    qu.offer(new Node(i,j));
+                    q.offer(new Pair(i, j));
+                }
+            }
+        }
+        int count = -1;
+        int[][] dir = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        while (!q.isEmpty()) {
+            int len = q.size();
+            for (int k = 0; k < len; k++) {
+                Pair node = q.poll();
 
-             }
-                if(grid[i][j] == 1) count++;
+                int i = node.i;
+                int j = node.j;
+                for (int[] d : dir) {
+                    int nr = i + d[0];
+                    int nc = j + d[1];
+
+                    if (nr < 0 || nc < 0 || nr >= grid.length || nc >= grid[0].length)
+                        continue;
+
+                    if (grid[nr][nc] == 1) {
+                        grid[nr][nc] = 2;
+                        q.offer(new Pair(nr, nc));
+                        
+                    }
+                }
+            }
+
+            count++;
+        }
+
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] == 1) {
+                    return -1;
+                }
             }
         }
 
-        int ans = -1;
-
-        if(count == 0) return 0;
-
-
-        while(!qu.isEmpty()){
-            int len = qu.size();
-
-            for(int k = 0; k < len;k++){
-                Node val = qu.poll();
-                int i = val.i;
-                int j = val.j;
-
-                grid[i][j] = 2;
-                
-                if(i - 1 >= 0 && grid[i-1][j] == 1 ) {
-                    grid[i-1][j] =2;
-                count--;
-                    qu.offer(new Node(i-1,j));
-                    }
-                if(j - 1 >= 0 && grid[i][j-1] == 1) {
-                    grid[i][j-1] =2;
-                count--;
-                    qu.offer(new Node(i,j-1));
-                    }
-                if(i + 1 < m && grid[i+1][j] == 1) {
-                    grid[i+1][j]= 2;
-                count--;
-                    qu.offer(new Node(i+1,j));
-                    }
-                if(j + 1 < n && grid[i][j+1] == 1) {
-                count--;
-                    grid[i][j+1] = 2;
-                    qu.offer(new Node(i,j+1));
-                    }
-
-            }
-            ans++;
-        }
-
-        return count == 0 ? ans : -1;
+        return Math.max(count,0);
+        // return count;
     }
 }
