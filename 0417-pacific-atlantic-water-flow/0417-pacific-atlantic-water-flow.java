@@ -1,39 +1,25 @@
 class Solution {
 
-    class Pair {
-        int i, j;
+    public List<List<Integer>> pacificAtlantic(int[][] nums) {
 
-        Pair(int i, int j) {
-            this.i = i;
-            this.j = j;
-        }
-    }
-
-    int[][] dirs = {
-        {1, 0},
-        {-1, 0},
-        {0, 1},
-        {0, -1}
-    };
-
-    public List<List<Integer>> pacificAtlantic(int[][] heights) {
-
-        int m = heights.length;
-        int n = heights[0].length;
-
-        boolean[][] pacific = new boolean[m][n];
-        boolean[][] atlantic = new boolean[m][n];
-
-        // Start BFS from both oceans
-        bfs(heights, pacific, true);
-        bfs(heights, atlantic, false);
+        int m = nums.length;
+        int n = nums[0].length;
 
         List<List<Integer>> ans = new ArrayList<>();
+
+        // 0 = unknown
+        // 1 = currently visiting
+        // 2 = can reach ocean
+        // 3 = cannot reach ocean
+        int[][] pState = new int[m][n];
+        int[][] aState = new int[m][n];
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
 
-                if (pacific[i][j] && atlantic[i][j]) {
+                if (dfsP(nums, i, j, pState) &&
+                    dfsA(nums, i, j, aState)) {
+
                     ans.add(List.of(i, j));
                 }
             }
@@ -42,69 +28,111 @@ class Solution {
         return ans;
     }
 
-    void bfs(int[][] heights, boolean[][] vis, boolean isPacific) {
+    boolean dfsP(int[][] nums, int i, int j, int[][] state) {
 
-        int m = heights.length;
-        int n = heights[0].length;
+        // Reached Pacific
+        if (i < 0 || j < 0) {
+            return true;
+        }
 
-        Queue<Pair> q = new LinkedList<>();
+        // Already computed
+        if (state[i][j] == 2) {
+            return true;
+        }
 
-        // Add ocean boundary cells
-        if (isPacific) {
+        if (state[i][j] == 3) {
+            return false;
+        }
 
-            // Top row
-            for (int j = 0; j < n; j++) {
-                q.offer(new Pair(0, j));
-                vis[0][j] = true;
+        // Cycle
+        if (state[i][j] == 1) {
+            return false;
+        }
+
+        state[i][j] = 1;
+
+        int[][] dirs = {
+            {-1, 0},
+            {1, 0},
+            {0, -1},
+            {0, 1}
+        };
+
+        for (int[] d : dirs) {
+
+            int ni = i + d[0];
+            int nj = j + d[1];
+
+            if (ni >= 0 && ni < nums.length &&
+                nj >= 0 && nj < nums[0].length &&
+                nums[ni][nj] <= nums[i][j]) {
+
+                if (dfsP(nums, ni, nj, state)) {
+                    state[i][j] = 2;
+                    return true;
+                }
             }
-
-            // Left column
-            for (int i = 1; i < m; i++) {
-                q.offer(new Pair(i, 0));
-                vis[i][0] = true;
-            }
-
-        } else {
-
-            // Bottom row
-            for (int j = 0; j < n; j++) {
-                q.offer(new Pair(m - 1, j));
-                vis[m - 1][j] = true;
-            }
-
-            // Right column
-            for (int i = 0; i < m - 1; i++) {
-                q.offer(new Pair(i, n - 1));
-                vis[i][n - 1] = true;
+            else if (ni < 0 || nj < 0) {
+                state[i][j] = 2;
+                return true;
             }
         }
 
-        // BFS
-        while (!q.isEmpty()) {
+        state[i][j] = 3;
+        return false;
+    }
 
-            Pair curr = q.poll();
+    boolean dfsA(int[][] nums, int i, int j, int[][] state) {
 
-            int i = curr.i;
-            int j = curr.j;
+        // Reached Atlantic
+        if (i >= nums.length || j >= nums[0].length) {
+            return true;
+        }
 
-            for (int[] dir : dirs) {
+        // Already computed
+        if (state[i][j] == 2) {
+            return true;
+        }
 
-                int ni = i + dir[0];
-                int nj = j + dir[1];
+        if (state[i][j] == 3) {
+            return false;
+        }
 
-                if (ni < 0 || ni >= m ||
-                    nj < 0 || nj >= n ||
-                    vis[ni][nj]) {
-                    continue;
-                }
+        // Cycle
+        if (state[i][j] == 1) {
+            return false;
+        }
 
-                // Reverse water flow
-                if (heights[ni][nj] >= heights[i][j]) {
+        state[i][j] = 1;
 
-                    vis[ni][nj] = true;
-                    q.offer(new Pair(ni, nj));
+        int[][] dirs = {
+            {-1, 0},
+            {1, 0},
+            {0, -1},
+            {0, 1}
+        };
+
+        for (int[] d : dirs) {
+
+            int ni = i + d[0];
+            int nj = j + d[1];
+
+            if (ni >= 0 && ni < nums.length &&
+                nj >= 0 && nj < nums[0].length &&
+                nums[ni][nj] <= nums[i][j]) {
+
+                if (dfsA(nums, ni, nj, state)) {
+                    state[i][j] = 2;
+                    return true;
                 }
             }
+            else if (ni >= nums.length || nj >= nums[0].length) {
+                state[i][j] = 2;
+                return true;
+            }
         }
+
+        state[i][j] = 3;
+        return false;
     }
 }
