@@ -36,7 +36,7 @@ class Solution {
     }
 
     void dfs(char[][] board, int i, int j) {
-        if (i < 0 || j < 0 || i >= board.length || j >= board[0].length)
+        if (i < 0 || j < 0 || i >= board.length || j >= board[0].length || board[i][j] != 'O')
             return;
 
         board[i][j] = 'P';
@@ -46,12 +46,9 @@ class Solution {
             int nr = i + d[0];
             int nc = j + d[1];
 
-            if (nr < 0 || nc < 0 || nr >= board.length || nc >= board[0].length)
-                continue;
-
-            if (board[nr][nc] == 'O') {
+            
                 dfs(board, nr, nc);
-            }
+            
 
         }
     }
