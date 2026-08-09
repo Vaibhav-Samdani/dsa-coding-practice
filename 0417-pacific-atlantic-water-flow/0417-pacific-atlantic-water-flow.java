@@ -1,7 +1,7 @@
 class Solution {
+
     class Pair {
-        int i;
-        int j;
+        int i, j;
 
         Pair(int i, int j) {
             this.i = i;
@@ -9,22 +9,32 @@ class Solution {
         }
     }
 
-    public List<List<Integer>> pacificAtlantic(int[][] nums) {
-        int m = nums.length, n = nums[0].length;
-        boolean[][] pVis = new boolean[m][n];
-        boolean[][] aVis = new boolean[m][n];
-        atlanticBfs(nums, aVis);
-        pacificBfs(nums, pVis);
+    int[][] dirs = {
+        {1, 0},
+        {-1, 0},
+        {0, 1},
+        {0, -1}
+    };
+
+    public List<List<Integer>> pacificAtlantic(int[][] heights) {
+
+        int m = heights.length;
+        int n = heights[0].length;
+
+        boolean[][] pacific = new boolean[m][n];
+        boolean[][] atlantic = new boolean[m][n];
+
+        // Start BFS from both oceans
+        bfs(heights, pacific, true);
+        bfs(heights, atlantic, false);
 
         List<List<Integer>> ans = new ArrayList<>();
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if(pVis[i][j] && aVis[i][j]){
-                    List<Integer> curr = new ArrayList<>();
-                    curr.add(i);
-                    curr.add(j);
-                    ans.add(new ArrayList<>(curr));
+
+                if (pacific[i][j] && atlantic[i][j]) {
+                    ans.add(List.of(i, j));
                 }
             }
         }
@@ -32,88 +42,67 @@ class Solution {
         return ans;
     }
 
-    void atlanticBfs(int[][] nums, boolean[][] vis){
+    void bfs(int[][] heights, boolean[][] vis, boolean isPacific) {
 
-        int m = nums.length;
-        int n = nums[0].length;
+        int m = heights.length;
+        int n = heights[0].length;
+
         Queue<Pair> q = new LinkedList<>();
 
-        for(int i = n-1; i >=0;i--){
-            q.offer(new Pair(m-1,i));
-            vis[m-1][i] = true;
-        }
-        for(int i = m-1; i >= 0;i--){
-            q.offer(new Pair(i,n-1));
-            vis[i][n-1] = true;
-        }
+        // Add ocean boundary cells
+        if (isPacific) {
 
-        while(!q.isEmpty()){
-            int len = q.size(); 
+            // Top row
+            for (int j = 0; j < n; j++) {
+                q.offer(new Pair(0, j));
+                vis[0][j] = true;
+            }
 
-            for(int k = 0; k<len;k++){
-                Pair node = q.poll();
+            // Left column
+            for (int i = 1; i < m; i++) {
+                q.offer(new Pair(i, 0));
+                vis[i][0] = true;
+            }
 
-                int i = node.i;
-                int j = node.j;
+        } else {
 
-                if(i > 0 && !vis[i-1][j] && nums[i-1][j] >= nums[i][j]){
-                    vis[i-1][j] = true;
-                    q.offer(new Pair(i-1,j));
-                }
-                if(j > 0 && !vis[i][j-1] && nums[i][j-1] >= nums[i][j]){
-                    vis[i][j-1] = true;
-                    q.offer(new Pair(i,j-1));
-                }
+            // Bottom row
+            for (int j = 0; j < n; j++) {
+                q.offer(new Pair(m - 1, j));
+                vis[m - 1][j] = true;
+            }
 
-                if(i < nums.length-1 && !vis[i+1][j] && nums[i+1][j] >= nums[i][j]){
-                    vis[i+1][j] = true;
-                    q.offer(new Pair(i+1,j));
-                }
-                if(j < nums[0].length-1 && !vis[i][j+1] && nums[i][j+1] >= nums[i][j]){
-                    vis[i][j+1] = true;
-                    q.offer(new Pair(i,j+1));
-                }
+            // Right column
+            for (int i = 0; i < m - 1; i++) {
+                q.offer(new Pair(i, n - 1));
+                vis[i][n - 1] = true;
             }
         }
-    }
 
-    void pacificBfs(int[][] nums, boolean[][] vis){
-        Queue<Pair> q = new LinkedList<>();
+        // BFS
+        while (!q.isEmpty()) {
 
-        for(int i = 0; i < nums[0].length;i++){
-            q.offer(new Pair(0,i));
-            vis[0][i] = true;
-        }
-        for(int i = 1; i < nums.length;i++){
-            q.offer(new Pair(i,0));
-            vis[i][0] = true;
-        }
+            Pair curr = q.poll();
 
-        while(!q.isEmpty()){
-            int len = q.size(); 
+            int i = curr.i;
+            int j = curr.j;
 
-            for(int k = 0; k<len;k++){
-                Pair node = q.poll();
+            for (int[] dir : dirs) {
 
-                int i = node.i;
-                int j = node.j;
+                int ni = i + dir[0];
+                int nj = j + dir[1];
 
-                if(i < nums.length-1 && !vis[i+1][j] && nums[i+1][j] >= nums[i][j]){
-                    vis[i+1][j] = true;
-                    q.offer(new Pair(i+1,j));
-                }
-                if(j < nums[0].length-1 && !vis[i][j+1] && nums[i][j+1] >= nums[i][j]){
-                    vis[i][j+1] = true;
-                    q.offer(new Pair(i,j+1));
+                if (ni < 0 || ni >= m ||
+                    nj < 0 || nj >= n ||
+                    vis[ni][nj]) {
+                    continue;
                 }
 
-                if(i > 0 && !vis[i-1][j] && nums[i-1][j] >= nums[i][j]){
-                    vis[i-1][j] = true;
-                    q.offer(new Pair(i-1,j));
-                }
-                if(j > 0 && !vis[i][j-1] && nums[i][j-1] >= nums[i][j]){
-                    vis[i][j-1] = true;
-                    q.offer(new Pair(i,j-1));
+                // Reverse water flow
+                if (heights[ni][nj] >= heights[i][j]) {
+
+                    vis[ni][nj] = true;
+                    q.offer(new Pair(ni, nj));
                 }
             }
         }
