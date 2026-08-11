@@ -1,57 +1,49 @@
 class Solution {
-    public int[] findOrder(int V, int[][] edg) {
+    public int[] findOrder(int N, int[][] edges) {
+             ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
 
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-
-        for (int i = 0; i < V; i++) {
+        for (int i = 0; i < N; i++) {
             adj.add(new ArrayList<>());
         }
 
-        for (int i = 0; i < edg.length; i++) {
-            int u = edg[i][1];
-            int v = edg[i][0];
+        int[] indeg = new int[N];
 
-            adj.get(u).add(v);
+        for (int i = 0; i < edges.length; i++) {
+            int u = edges[i][0];
+            int v = edges[i][1];
+
+            indeg[u]++;
+
+            adj.get(v).add(u);
         }
 
-        Deque<Integer> st = new ArrayDeque<>();
-        int[] state = new int[V]; // 0=unvisited,1=visiting,2=visited
 
-        for (int i = 0; i < V; i++) {
-            if (state[i] == 0) {
-                if (dfs(adj, state, st, i)) {
-                    return new int[0];
+        int[] ans = new int[N];
+        int count = 0;
+
+        Queue<Integer> q = new LinkedList<>();
+
+        for (int i = 0; i<N; i++) {
+			if (indeg[i] == 0) {
+				q.offer(i);
+			}
+		}
+
+
+        while (!q.isEmpty()) {
+            int val = q.poll();
+
+            ans[count] = val;
+            count++;
+
+            for (int neigh : adj.get(val)) {
+                indeg[neigh]--;
+                if (indeg[neigh] == 0) {
+                    q.offer(neigh);
                 }
             }
         }
 
-        int[] ans = new int[V];
-
-        int i = 0;
-        while (!st.isEmpty()) {
-            ans[i++] = st.pop();
-        }
-
-        return ans;
+        return count == N ? ans:new int[]{} ;
     }
-
-    boolean dfs(ArrayList<ArrayList<Integer>> adj, int[] state, Deque<Integer> st, int curr) {
-        state[curr] = 1;
-
-        for (int neigh : adj.get(curr)) {
-            if(state[neigh] == 1){
-                return true;
-            }
-            if (state[neigh] == 0) {
-                if(dfs(adj, state, st, neigh)){
-                    return true;
-                }
-            }
-        }
-
-        state[curr] = 2;
-        st.push(curr);
-        return false;
-    }
-
 }
