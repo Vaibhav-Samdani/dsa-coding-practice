@@ -532,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [0993-cousins-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0993-cousins-in-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
+| [1192-critical-connections-in-a-network](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1382-balance-a-binary-search-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1382-balance-a-binary-search-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -648,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0990-satisfiability-of-equality-equations) |
 | [0997-find-the-town-judge](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0997-find-the-town-judge) |
+| [1192-critical-connections-in-a-network](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -770,4 +772,12 @@ A collection of LeetCode questions to ace the coding interview!
 | [1148-article-views-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1148-article-views-i) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1757-recyclable-and-low-fat-products) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1192-critical-connections-in-a-network) |
+## Bridge (Graph)
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
