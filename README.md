@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0041-first-missing-positive](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0074-search-a-2d-matrix) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0189-rotate-array) |
@@ -625,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
