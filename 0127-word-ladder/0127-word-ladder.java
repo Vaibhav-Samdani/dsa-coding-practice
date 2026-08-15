@@ -47,9 +47,9 @@ class Solution {
 
         for (int i = 0; i < 26; i++) {
             String newWord = start + (char)('a' + i) + end;
-            if (words.contains(newWord.toString())) {
-                q.offer(new Pair(newWord.toString(), dis));
-                words.remove(newWord.toString());
+            if (words.contains(newWord)) {
+                q.offer(new Pair(newWord, dis));
+                words.remove(newWord);
             }
         }
     }
