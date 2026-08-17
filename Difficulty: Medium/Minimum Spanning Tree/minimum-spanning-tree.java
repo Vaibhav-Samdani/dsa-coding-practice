@@ -1,16 +1,16 @@
 class Solution {
 	class Pair {
 		int node;
-		int weight;
-		
-		Pair(int node, int weight) {
+		int dis;
+		Pair(int node, int dis) {
 			this.node = node;
-			this.weight = weight;
+			this.dis = dis;
 		}
 	}
+	
 	public int spanningTree(int V, int[][] edges) {
 		
-		boolean[] vis = new boolean[V];
+		int ans = 0;
 		
 		ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
 		
@@ -18,36 +18,33 @@ class Solution {
 			adj.add(new ArrayList<>());
 		}
 		
-		for (int i = 0 ; i<edges.length; i++) {
-			int u = edges[i][0];
-			int v = edges[i][1];
-			int w = edges[i][2];
-			
-			adj.get(u).add(new Pair(v, w));
-			adj.get(v).add(new Pair(u, w));
+		for (int i = 0; i < edges.length; i++) {
+			adj.get(edges[i][0]).add(new Pair(edges[i][1], edges[i][2]));
+			adj.get(edges[i][1]).add(new Pair(edges[i][0], edges[i][2]));
 		}
 		
-		int ans = 0;
+		boolean[] vis = new boolean[V];
 		
-		PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b)->Integer.compare(a.weight, b.weight));
+		PriorityQueue<Pair> pq = new PriorityQueue<>((a, b)->Integer.compare(a.dis, b.dis));
 		
-		minHeap.offer(new Pair(0, 0));
+		pq.offer(new Pair(0, 0));
 		
-		while (!minHeap.isEmpty()) {
-			Pair val = minHeap.poll();
+// 		vis[0] = true;
+		
+		while (!pq.isEmpty()) {
+			Pair node = pq.poll();
 			
-			int node = val.node;
-			int weight = val.weight;
+			if (vis[node.node]) {
+				continue;
+			}
+			vis[node.node] = true;
+			ans += node.dis;
 			
-			if(vis[node]) continue;
-			
-			vis[node] = true;
-			ans += weight;
-			
-			for (Pair v : adj.get(node)) {
-				if (!vis[v.node]) {
-					minHeap.offer(new Pair(v.node, v.weight));
+			for (Pair neigh : adj.get(node.node)) {
+				if (!vis[neigh.node]) {
+					pq.offer(new Pair(neigh.node, neigh.dis));
 				}
+				
 			}
 		}
 		
