@@ -1,53 +1,58 @@
 class Solution {
-	class Pair {
-		int node;
-		int dis;
-		Pair(int node, int dis) {
-			this.node = node;
-			this.dis = dis;
-		}
-	}
+	
+	
+	int[] parent;
 	
 	public int spanningTree(int V, int[][] edges) {
 		
+		parent = new int[V];
 		int ans = 0;
 		
-		ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
-		
-		for (int i = 0; i<V; i++) {
-			adj.add(new ArrayList<>());
+		for(int i = 0; i < V;i++){
+		    parent[i] = i;
 		}
+		
+		
+		PriorityQueue<int[]> pq = new PriorityQueue<>((a, b)->Integer.compare(a[2], b[2]));
 		
 		for (int i = 0; i < edges.length; i++) {
-			adj.get(edges[i][0]).add(new Pair(edges[i][1], edges[i][2]));
-			adj.get(edges[i][1]).add(new Pair(edges[i][0], edges[i][2]));
+			pq.offer(edges[i]);
 		}
 		
-		boolean[] vis = new boolean[V];
-		
-		PriorityQueue<Pair> pq = new PriorityQueue<>((a, b)->Integer.compare(a.dis, b.dis));
-		
-		pq.offer(new Pair(0, 0));
-		
-// 		vis[0] = true;
-		
+	
 		while (!pq.isEmpty()) {
-			Pair node = pq.poll();
+			int[] curr = pq.poll();
 			
-			if (vis[node.node]) {
-				continue;
-			}
-			vis[node.node] = true;
-			ans += node.dis;
+			int pu = find(curr[0]);
+			int pv = find(curr[1]);
+			int weight = curr[2];
 			
-			for (Pair neigh : adj.get(node.node)) {
-				if (!vis[neigh.node]) {
-					pq.offer(new Pair(neigh.node, neigh.dis));
-				}
-				
+			if(pu == pv){
+			    continue;
+			}else{
+			    union(curr[0],curr[1]);
+			    ans += weight;
 			}
+			
 		}
 		
 		return ans;
 	}
+	
+	int find(int x){
+	    if(x == parent[x]) return x;
+	    
+	    return parent[x] = find(parent[x]);
+	}
+	
+	
+	void union(int x, int y){
+	    int px = find(x);
+	    int py = find(y);
+	    if(px != py) {
+	        parent[px] = py;
+	    }
+	}
+	
+	
 }
