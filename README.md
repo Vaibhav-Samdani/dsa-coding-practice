@@ -804,4 +804,16 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0127-word-ladder) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
