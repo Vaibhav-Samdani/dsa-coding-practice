@@ -6,14 +6,16 @@ class Solution {
         dp = new int[n];
         Arrays.fill(dp, -1);
 
-        if (n <= 3) {
-            int ans = 0;
-            for (int i = 0; i < n; i++) {
-                ans = Math.max(nums[i], ans);
-            }
+        // if (n <= 3) {
+        //     int ans = 0;
+        //     for (int i = 0; i < n; i++) {
+        //         ans = Math.max(nums[i], ans);
+        //     }
 
-            return ans;
-        }
+        //     return ans;
+        // }
+
+        if(n == 1) return nums[0];
 
         int first = solve(nums, 0, n - 1);
         Arrays.fill(dp, -1);
