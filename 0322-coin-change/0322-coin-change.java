@@ -1,30 +1,30 @@
 class Solution {
     int[][] dp;
+
     public int coinChange(int[] coins, int amount) {
-        if(amount == 0) return 0;
+        if (amount == 0)
+            return 0;
 
-        dp = new int[coins.length][amount+1];
+        dp = new int[coins.length + 1][amount + 2];
 
-        for(int i = 0; i<coins.length;i++){
-            Arrays.fill(dp[i],-1);
+        // Base conditions;
+        for (int i = 0; i < amount + 2; i++) {
+            dp[0][i] = 100_000_000;
         }
 
-        int ans = solve(coins,amount,coins.length-1);
+        for (int i = 1; i < dp.length; i++) {
+            for (int j = 1; j < dp[i].length; j++) {
+               
+                int take = coins[i - 1] <= j ? 1 + dp[i][j - coins[i-1]] : 100_000_000;
+                int notTake = dp[i-1][j];
 
-        return ans >= 100_000_000 ? -1: ans;
+                dp[i][j] = Math.min(take, notTake);
+            }
+        }
+
+        int ans = dp[coins.length][amount];
+
+        return ans >= 100_000_000 ? -1 : ans;
     }
 
-    int solve(int[] coins, int amount, int i){
-        if(amount == 0) return 0;
-        if(i<0 || amount < 0) return 100_000_000;
-
-        if(dp[i][amount] != -1) return dp[i][amount];
-
-        int ans = 0;
-
-        int take = 1 + solve(coins,amount-coins[i],i);
-        int notTake = solve(coins,amount,i-1);
-
-        return dp[i][amount] = Math.min(take,notTake);
-    }
 }
