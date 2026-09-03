@@ -5,10 +5,10 @@ class Solution {
         if (amount == 0)
             return 0;
 
-        dp = new int[coins.length + 1][amount + 2];
+        dp = new int[coins.length + 1][amount + 1];
 
         // Base conditions;
-        for (int i = 0; i < amount + 2; i++) {
+        for (int i = 0; i < amount + 1; i++) {
             dp[0][i] = 100_000_000;
         }
 
