@@ -1,12 +1,8 @@
 class Solution {
-    Boolean dp[][];
-
     public String longestPalindrome(String s) {
-        dp = new Boolean[s.length()][s.length()];
         int start = 0;
         int maxLen = 0;
         for (int i = 0; i < s.length(); i++) {
-
             int odd = check(s, i, i);
             int even = check(s, i, i + 1);
 
