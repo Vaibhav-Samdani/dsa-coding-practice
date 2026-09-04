@@ -1,5 +1,5 @@
 class Solution {
-
+    int dp[][];
     public String longestPalindrome(String s) {
         StringBuilder st = new StringBuilder();
 
