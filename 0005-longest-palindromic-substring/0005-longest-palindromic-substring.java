@@ -1,8 +1,8 @@
 class Solution {
-    int dp[][];
+    Boolean dp[][];
     public String longestPalindrome(String s) {
         StringBuilder st = new StringBuilder();
-
+        dp = new Boolean[s.length()][s.length()];
         for (int i = 0; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
                 if (check(s, i, j)) {
@@ -18,16 +18,23 @@ class Solution {
     }
 
     boolean check(String s, int i, int j) {
-        int mid = i + (j - i) / 2;
-
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
-                return false;
-            }
-            i++;
-            j--;
+        // Base case
+        if (i >= j) {
+            return true;
         }
 
-        return true;
+        // Already calculated
+        if (dp[i][j] != null) {
+            return dp[i][j];
+        }
+
+        // Calculate and store
+        if (s.charAt(i) != s.charAt(j)) {
+            return dp[i][j] = false;
+        }
+
+        
+
+        return dp[i][j] = check(s,i+1,j-1);
     }
 }
