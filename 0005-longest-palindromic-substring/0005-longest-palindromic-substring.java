@@ -1,20 +1,23 @@
 class Solution {
     Boolean dp[][];
     public String longestPalindrome(String s) {
-        StringBuilder st = new StringBuilder();
         dp = new Boolean[s.length()][s.length()];
+        int start = 0;
+        int maxLen = 0;
         for (int i = 0; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
                 if (check(s, i, j)) {
-                    StringBuilder temp = new StringBuilder(s.substring(i, j + 1)) ;
-                    if (st.length() < temp.length()) {
-                        st = temp;
+                    int len = j - i + 1;
+
+                    if (len > maxLen) {
+                        start = i;
+                        maxLen = len;
                     }
                 }
             }
         }
 
-        return st.toString();
+        return s.substring(start, start + maxLen);
     }
 
     boolean check(String s, int i, int j) {
