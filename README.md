@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3693-climbing-stairs-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3693-climbing-stairs-ii) |
 | [3838-weighted-word-mapping](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3838-weighted-word-mapping) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3875-construct-uniform-parity-array-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/3875-construct-uniform-parity-array-i) |
 ## Recursion
 |  |
 | ------- |
