@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
 | [0981-time-based-key-value-store](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0981-time-based-key-value-store) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0560-subarray-sum-equals-k) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1732-find-the-highest-altitude](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1732-find-the-highest-altitude) |
 ## String
