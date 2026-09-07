@@ -3,21 +3,16 @@ class Solution {
         int i = 0;
         int j = nums.length-1;
 
-        int[] ans = new int[2];
-
-        while(i < j){
-            int sum = nums[i] + nums[j];
-            if(sum == target){
-                ans[0] = i+1;
-                ans[1] = j+1;
-                return ans;
-            }else if(sum > target){
+        while(i < j){ 
+            if(nums[i] + nums[j] > target){
                 j--;
-            }else{
+            }else if(nums[i] + nums[j] < target){
                 i++;
+            }else{
+                return new int[]{i+1,j+1};
             }
         }
 
-        return ans;
+        return new int[]{i+1,j+1};
     }
 }
