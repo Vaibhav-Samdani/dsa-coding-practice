@@ -10,7 +10,6 @@
  * }
  */
 public class Solution {
-    //  Floyd's Cycle Detection Algorithm
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
@@ -18,9 +17,13 @@ public class Solution {
         while(fast != null && fast.next != null){
             fast = fast.next.next;
             slow = slow.next;
-            if(fast == slow) return true;
+
+            if(slow == fast){
+                return true;
+            }
         }
 
         return false;
+
     }
 }
