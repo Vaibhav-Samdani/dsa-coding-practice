@@ -9,13 +9,13 @@ class Solution {
         }
         
         int ans = 0;
-        // high++;
+        high++;
         while(low < high){
             int mid = low + (high-low)/2;
             
             if(isPossible(piles,h,mid)){
                 ans = mid;
-                high = mid-1;
+                high = mid;
             }else{
                 low = mid+1;
             }
