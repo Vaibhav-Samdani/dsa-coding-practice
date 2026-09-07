@@ -864,4 +864,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0322-coin-change) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
