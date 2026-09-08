@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0074-search-a-2d-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -417,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0020-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0042-trapping-rain-water) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0739-daily-temperatures) |
@@ -868,4 +871,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0141-linked-list-cycle) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
