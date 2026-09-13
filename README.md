@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0046-permutations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0078-subsets) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0015-3sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0217-contains-duplicate) |
@@ -880,4 +882,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0287-find-the-duplicate-number) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
