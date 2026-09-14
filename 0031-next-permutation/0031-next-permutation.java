@@ -8,17 +8,15 @@ class Solution {
             pivot--;
         }
 
-        if(pivot == -1){
-            reverse(nums,pivot+1,n-1);
-            return;
-        }
+        if (pivot != -1) {
 
-        int j = n - 1;
-        while (nums[j] <= nums[pivot]) {
-            j--;
-        }
+            int j = n - 1;
+            while (nums[j] <= nums[pivot]) {
+                j--;
+            }
 
-        swap(nums, j, pivot);
+            swap(nums, j, pivot);
+        }
         reverse(nums, pivot + 1, n - 1);
     }
 
