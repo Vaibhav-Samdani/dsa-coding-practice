@@ -30,31 +30,23 @@ class Solution {
 
     }
 
-    int countFreq(int[][] mat, int mid){
-        int ans = 0;
+    int countFreq(int[][] mat, int val){
+        int n = mat.length;
+        int count = 0;
 
-        for(int i = 0; i<mat.length;i++){
-            ans += count(mat[i],mid);
-        }
+        int row = n-1, col = 0;
 
-        return ans;
-    }
-
-    int count(int[] arr, int val){
-        int low = 0;
-        int high = arr.length-1;
-
-        while(low <= high){
-            int mid = low + (high - low)/2;
-
-            if(arr[mid] <= val){
-                low = mid+1;
+        while(row >= 0 && col < n){
+            if(mat[row][col] <= val){
+                count += row + 1;
+                col++;
             }else{
-                high = mid-1;
+                row--;
             }
-
-
         }
-            return low;
+
+        return count;
     }
+
+    
 }
