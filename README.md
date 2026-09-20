@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0403-frog-jump](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0403-frog-jump) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0417-pacific-atlantic-water-flow) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0209-minimum-size-subarray-sum](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0300-longest-increasing-subsequence) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0704-binary-search) |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0242-valid-anagram](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
@@ -338,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
@@ -675,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0079-word-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0200-number-of-islands) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0417-pacific-atlantic-water-flow) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
