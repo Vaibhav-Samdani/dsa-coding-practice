@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0417-pacific-atlantic-water-flow](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0417-pacific-atlantic-water-flow) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
+| [0485-max-consecutive-ones](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0540-single-element-in-a-sorted-array) |
