@@ -1,27 +1,16 @@
 class Solution {
-
-    class Pair implements Comparable<Pair> {
+    class Pair {
         int node;
         int weight;
 
-        Pair(int nd, int wt) {
-            this.node = nd;
-            this.weight = wt;
-        }
-
-        @Override
-        public int compareTo(Pair other) {
-            if (this.weight != other.weight)
-                return Integer.compare(this.weight, other.weight);
-
-            return Integer.compare(this.node, other.node);
+        Pair(int node, int weight) {
+            this.node = node;
+            this.weight = weight;
         }
     }
 
-    public int networkDelayTime(int[][] times, int n, int src) {
-        // Dijkstra's name is more difficult than his algorithm........
+    public int networkDelayTime(int[][] times, int n, int k) {
         int V = n + 1;
-
         ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
 
         for (int i = 0; i < V; i++) {
@@ -33,48 +22,41 @@ class Solution {
             int v = times[i][1];
             int w = times[i][2];
 
-            adj.get(u).add(new Pair(v, w));
+            adj.get(u).add(new Pair(v,w));
         }
 
-        int result[] = new int[V];
+        int[] vis = new int[V];
 
-        Arrays.fill(result, Integer.MAX_VALUE);
+        Arrays.fill(vis, Integer.MAX_VALUE);
 
-        TreeSet<Pair> set = new TreeSet<>();
+        vis[k] = 0;
 
-        set.add(new Pair(src, 0));
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.weight, b.weight));
 
-        result[src] = 0;
+        pq.offer(new Pair(k,0));
 
-        while (!set.isEmpty()) {
-            Pair val = set.pollFirst();
+        while(!pq.isEmpty()){
+            Pair node = pq.poll();
 
-            int node = val.node;
-            int weight = val.weight;
+            int val = node.node;
+            int wt = node.weight;
 
-            if (result[node] < weight) {
-                continue;
-            }
-
-            for (Pair neigh : adj.get(node)) {
-                if (weight + neigh.weight < result[neigh.node]) {
-                    if (result[neigh.node] != Integer.MAX_VALUE) {
-                        set.remove(new Pair(neigh.node, result[neigh.node]));
-                    }
-
-                    result[neigh.node] = weight + neigh.weight;
-                    set.add(new Pair(neigh.node, result[neigh.node]));
+            for(Pair neigh : adj.get(val)){
+                if(vis[neigh.node] > wt + neigh.weight){
+                    vis[neigh.node] = wt + neigh.weight;
+                    pq.offer(new Pair(neigh.node,vis[neigh.node]));
                 }
             }
-        }
-        int max = 0;
 
-        for (int i = 1; i < result.length; i++) {
-            if (result[i] == Integer.MAX_VALUE) {
-                return -1;
-            }
-            max = Math.max(max, result[i]);
         }
-        return max;
+
+        int ans = 0;
+
+        for(int i = 1; i<V;i++){
+            if(vis[i] == Integer.MAX_VALUE) return -1;
+            ans = Math.max(vis[i],ans);
+        }
+
+        return ans;
     }
 }
