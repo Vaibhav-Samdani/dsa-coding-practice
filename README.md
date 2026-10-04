@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0025-reverse-nodes-in-k-group](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0394-decode-string) |
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
 ## Binary Search
 |  |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0257-binary-tree-paths](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0344-reverse-string) |
+| [0394-decode-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
 | [0567-permutation-in-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0567-permutation-in-string) |
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0173-binary-search-tree-iterator) |
+| [0394-decode-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0394-decode-string) |
 | [0456-132-pattern](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0456-132-pattern) |
 | [0503-next-greater-element-ii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0739-daily-temperatures) |
