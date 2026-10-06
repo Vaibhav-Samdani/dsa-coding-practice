@@ -915,4 +915,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
