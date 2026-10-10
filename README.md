@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0206-reverse-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0355-design-twitter) |
 | [0382-linked-list-random-node](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0382-linked-list-random-node) |
+| [0876-middle-of-the-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Math
 |  |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0295-find-median-from-data-stream](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0567-permutation-in-string) |
+| [0876-middle-of-the-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Design
 |  |
