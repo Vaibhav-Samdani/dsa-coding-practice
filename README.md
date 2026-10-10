@@ -497,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0300-longest-increasing-subsequence](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0338-counting-bits) |
 | [0403-frog-jump](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0403-frog-jump) |
 | [0474-ones-and-zeroes](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0474-ones-and-zeroes) |
 | [0509-fibonacci-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0509-fibonacci-number) |
@@ -748,6 +749,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0191-number-of-1-bits](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0191-number-of-1-bits) |
 | [0260-single-number-iii](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0287-find-the-duplicate-number) |
+| [0338-counting-bits](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0371-sum-of-two-integers) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/2220-minimum-bit-flips-to-convert-number) |
