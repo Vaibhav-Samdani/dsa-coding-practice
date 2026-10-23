@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0561-array-partition](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0628-maximum-product-of-three-numbers) |
+| [0695-max-area-of-island](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0739-daily-temperatures](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0739-daily-temperatures) |
@@ -599,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -686,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0637-average-of-levels-in-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -708,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
 ## Iterator
@@ -740,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0695-max-area-of-island) |
 | [0785-is-graph-bipartite](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/0990-satisfiability-of-equality-equations) |
 | [1020-number-of-enclaves](https://github.com/Vaibhav-Samdani/dsa-coding-practice/tree/master/1020-number-of-enclaves) |
