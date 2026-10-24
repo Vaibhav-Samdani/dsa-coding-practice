@@ -42,19 +42,17 @@ public class Codec {
     }
 
     TreeNode dDfs(String[] data){
-        if(data.length == 0 || (data.length == 1 && data[0].equals("n"))) return null;
+        // if(data.length == 0 || (data.length == 1 && data[0].equals("n"))) return null;
 
         if(i >= data.length) return null;
 
-        String curr = data[i];
+        String curr = data[i++];
         if(curr.equals("n")) return null;
 
         if(curr.equals("")) return null;
 
         TreeNode root = new TreeNode(Integer.parseInt(curr));
-        i++;
         root.left = dDfs(data);
-        i++;
         root.right = dDfs(data);
 
         return root;
