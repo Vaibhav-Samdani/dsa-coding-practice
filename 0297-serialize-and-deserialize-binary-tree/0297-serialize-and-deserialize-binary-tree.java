@@ -9,64 +9,54 @@
  */
 public class Codec {
 
+    StringBuilder sb;
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
         if (root == null) return "";
-        StringBuilder st = new StringBuilder();
-        Queue<TreeNode> q = new LinkedList<>();
+        sb = new StringBuilder();
+        sDfs(root);
+        return sb.toString();
+    }
 
-        q.offer(root);
-
-        while (!q.isEmpty()) {
-            int len = q.size();
-            for (int i = 0; i < len; i++) {
-                TreeNode node = q.poll();
-
-                if (node == null) {
-                    st.append("null,");
-                    continue;
-                }
-
-                st.append(node.val).append(",");
-
-                q.offer(node.left);
-                q.offer(node.right);
-            }
+    void sDfs(TreeNode root){
+        if(root == null){
+            sb.append("n,");
+            return;
         }
 
-        return st.toString();
+        sb.append(root.val).append(",");
+        sDfs(root.left);
+        sDfs(root.right);
     }
+
+    int i;
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if (data.length() == 0) return null;
-        String[] values = data.split(",");
-        int k = 1;
-        TreeNode root = new TreeNode(Integer.parseInt(values[0]));
+        i = 0;
+        String[] arr = data.split(",");
+        TreeNode root = dDfs(arr);
 
-        Queue<TreeNode> q = new LinkedList<>();
+        return root;
+    }
 
-        q.offer(root);
+    TreeNode dDfs(String[] data){
+        if(data.length == 0 || (data.length == 1 && data[0].equals("n"))) return null;
 
-        while (!q.isEmpty() && k < values.length) {
-            int len = q.size();
+        if(i >= data.length) return null;
 
-            for (int i = 0; i < len; i++) {
-                TreeNode node = q.poll();
+        String curr = data[i];
+        if(curr.equals("n")) return null;
 
-                
-                if (k < values.length && !values[k].equals("null")) {
-                    node.left = new TreeNode(Integer.parseInt(values[k]));
-                    q.offer(node.left);
-                }
-                k++;
-                if (k < values.length && !values[k].equals("null")) {
-                    node.right = new TreeNode(Integer.parseInt(values[k]));
-                    q.offer(node.right);
-                }
-                k++;
-            }
-        }
+        if(curr.equals("")) return null;
+
+        TreeNode root = new TreeNode(Integer.parseInt(curr));
+        i++;
+        root.left = dDfs(data);
+        i++;
+        root.right = dDfs(data);
+
         return root;
     }
 }
