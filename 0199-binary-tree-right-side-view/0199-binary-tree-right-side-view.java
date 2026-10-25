@@ -17,29 +17,18 @@
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
-        if(root == null) return ans;
-        Queue<TreeNode> q = new LinkedList<>();
+        dfs(root,0,ans);
+        return ans;
+    }
 
-        q.offer(root);
+    void dfs(TreeNode root, int depth, List<Integer> ans){
+        if(root == null) return;
 
-
-
-
-        while (!q.isEmpty()) {
-            int len = q.size();
-
-            for (int i = 0; i < len; i++) {
-                TreeNode curr = q.poll();
-
-                if(i == len-1){
-                    ans.add(curr.val);
-                }
-
-                if(curr.left != null) q.offer(curr.left);
-                if(curr.right != null) q.offer(curr.right);
-            }
+        if(depth == ans.size()){
+            ans.add(root.val);
         }
 
-        return ans;
+        dfs(root.right,depth+1,ans);
+        dfs(root.left,depth+1,ans);
     }
 }
