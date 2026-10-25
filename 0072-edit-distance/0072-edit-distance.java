@@ -1,39 +1,25 @@
 class Solution {
-
+    int[][] dp;
     public int minDistance(String word1, String word2) {
-        int n = word1.length();
-        int m = word2.length();
-
-        int[][] dp = new int[n + 1][m + 1];
-
-        for (int j = 0; j <= m; j++) {
-            dp[n][j] = m - j;
+        dp = new int[word1.length()][word2.length()];
+        for(int i = 0; i<dp.length;i++){
+            Arrays.fill(dp[i],-1);
         }
+        return solve(word1,word2,0,0);
+    }
 
-        for (int i = 0; i <= n; i++) {
-            dp[i][m] = n - i;
+    int solve(String w1, String w2, int i, int j){
+
+        if(i >= w1.length()) return w2.length() - j;
+        if(j >= w2.length()) return w1.length() - i;
+
+        if(dp[i][j] != -1) return dp[i][j];
+
+
+        if(w1.charAt(i) == w2.charAt(j)){
+            return dp[i][j] = solve(w1,w2,i+1,j+1);
+        }else{
+            return dp[i][j] = 1 + Math.min(solve(w1,w2,i,j+1),Math.min(solve(w1,w2,i+1,j+1),solve(w1,w2,i+1,j)));
         }
-
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = m - 1; j >= 0; j--) {
-                int delVal = 1 + dp[i + 1][j];
-
-                // 2. Insert
-                int inVal = 1 + dp[i][j + 1];
-
-                // 3. Replace
-                int reVal = 0;
-
-                if (word1.charAt(i) == word2.charAt(j)) {
-                    reVal = dp[i + 1][j + 1];
-                } else {
-                    reVal = 1 + dp[i + 1][j + 1];
-                }
-
-                dp[i][j] = Math.min(delVal, Math.min(inVal, reVal));
-            }
-        }
-
-        return dp[0][0];
     }
 }
