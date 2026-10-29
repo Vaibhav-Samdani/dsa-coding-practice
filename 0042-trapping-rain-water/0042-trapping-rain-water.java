@@ -1,26 +1,30 @@
 class Solution {
-    public int trap(int[] nums) {
-        // ( right - left ) * min(nums[left], nums[right]) - sum; 
-        // int val = Math.min(nums[i],nums[max]) * (i-max-1) - currSum;
-        if (nums.length == 0) return 0;
+
+    public int trap(int[] arr) {
+        int n = arr.length;
+
+        int lMax = 0;
+        int rMax = 0;
+
+        int l = 0;
+        int r = n - 1;
+
         int ans = 0;
 
-        int left = 0;
-        int right = nums.length-1;
-        int lmax = nums[0];
-        int rmax = nums[nums.length-1];
-
-        while(left < right){
-            if(lmax <= rmax){
-                left++;
-                lmax = Math.max(lmax,nums[left]);
-                ans += lmax - nums[left];
+        while (l < r) {
+            if(arr[l] <= arr[r]){
+                if(arr[l] < lMax){
+                    ans += lMax - arr[l];
+                }
+                lMax = Math.max(lMax,arr[l]);
+                l++;
             }else{
-                right--;
-                rmax = Math.max(rmax,nums[right]);
-                ans += rmax - nums[right];
+                if(arr[r] < rMax){
+                    ans += rMax - arr[r];
+                }
+                rMax = Math.max(rMax,arr[r]);
+                r--;
             }
-
         }
 
         return ans;
