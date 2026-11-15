@@ -1,54 +1,66 @@
+class TrieNode {
+    TrieNode[] children;
+    boolean isEndOfWord;
+
+    TrieNode(){
+        children = new TrieNode[26];
+        isEndOfWord = false;
+    }
+}
+
+
 class Trie {
-    boolean isEnd;
-    Trie children[];
+
+    TrieNode root;
 
     public Trie() {
-        children = new Trie[26];
+        root = new TrieNode();
     }
 
     public void insert(String word) {
-        Trie obj = this;
-        for (int i = 0; i < word.length(); i++) {
-            char ch = word.charAt(i);
-            if (obj.children[ch - 'a'] == null) {
-                obj.children[ch - 'a'] = new Trie();
+        TrieNode temp = root;
+        for(int i = 0; i<word.length();i++){
+            char w = word.charAt(i);
+            int idx = w - 'a';
+
+            if (temp.children[idx] == null) {
+                temp.children[idx] = new TrieNode();
             }
-            obj = obj.children[ch - 'a'];
+            
+            temp = temp.children[idx];
         }
-        obj.isEnd = true;
+
+        temp.isEndOfWord = true;
     }
 
     public boolean search(String word) {
-        Trie obj = this;
-
+        TrieNode temp = root;
         for(int i = 0; i<word.length();i++){
-            char ch = word.charAt(i);
-            if(obj.children[ch-'a'] == null) return false;
+            char w = word.charAt(i);
+            int idx = w - 'a';
 
-            obj = obj.children[ch-'a'];
-
+            if (temp.children[idx] == null) {
+                return false;
+            }
             
+            temp = temp.children[idx];
         }
-        return obj.isEnd;
+        return temp.isEndOfWord;
     }
 
-    public boolean startsWith(String prefix) {
-        Trie obj = this;
+    public boolean startsWith(String word) {
+        TrieNode temp = root;
+        for(int i = 0; i<word.length();i++){
+            char w = word.charAt(i);
+            int idx = w - 'a';
 
-        for(int i = 0; i<prefix.length();i++){
-            char ch = prefix.charAt(i);
-            if(obj.children[ch-'a'] == null) return false;
-
-            obj = obj.children[ch-'a'];
+            if (temp.children[idx] == null) {
+                return false;
+            }
+            
+            temp = temp.children[idx];
         }
 
         return true;
     }
 }
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie obj = new Trie();
- * obj.insert(word);
- * boolean param_2 = obj.search(word);
- * boolean param_3 = obj.startsWith(prefix);
- */
