@@ -1,55 +1,62 @@
 class Solution {
+    int[][] dist ={{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
     public void solve(char[][] board) {
-
         int m = board.length;
         int n = board[0].length;
 
+        // 1. Mark all border-connected 'O' as 'Y'
+        for (int i = 0; i < m; i++) {
+            if (board[i][0] == 'O') {
+                dfs(board, i, 0);
+            }
+        }
+        for (int i = 0; i < m; i++) {
+            if (board[i][n - 1] == 'O') {
+                dfs(board, i, n - 1);
+            }
+        }
         for (int i = 0; i < n; i++) {
             if (board[0][i] == 'O') {
                 dfs(board, 0, i);
             }
+        }
+        for (int i = 0; i < n; i++) {
             if (board[m - 1][i] == 'O') {
                 dfs(board, m - 1, i);
             }
         }
 
-        for (int i = 0; i < m; i++) {
-            if (board[i][0] == 'O') {
-                dfs(board, i, 0);
-            }
-            if (board[i][n - 1] == 'O') {
-                dfs(board, i, n - 1);
-            }
-        }
-
+        // 2. Surrounded 'O' -> 'X'
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (board[i][j] == 'O') {
                     board[i][j] = 'X';
                 }
-                if (board[i][j] == 'P') {
+            }
+        }
+
+
+        // 3. Restore 'Y' -> 'O'
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == 'Y') {
                     board[i][j] = 'O';
                 }
             }
         }
-        
     }
 
-    void dfs(char[][] board, int i, int j) {
-        if (i < 0 || j < 0 || i >= board.length || j >= board[0].length || board[i][j] != 'O')
-            return;
+    void dfs(char[][] board, int i , int j){
+        if(i < 0 || i >= board.length || j < 0 || j >= board[0].length) return;
 
-        board[i][j] = 'P';
+        if(board[i][j] != 'O') return;
+        board[i][j] = 'Y';
 
-        int[][] dir = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
-        for (int[] d : dir) {
-            int nr = i + d[0];
-            int nc = j + d[1];
-
-            
-                dfs(board, nr, nc);
-            
-
+        for(int k = 0; k<dist.length;k++){
+            int ni = i + dist[k][0], nj = j + dist[k][1];
+            dfs(board,ni,nj);
         }
+
     }
+
 }
