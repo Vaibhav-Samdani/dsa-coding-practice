@@ -13,17 +13,23 @@
  *     }
  * }
  */
-class Solution {
 
+class Solution {
+    int ans;
     public int goodNodes(TreeNode root) {
-        return dfs(root, Integer.MIN_VALUE);
+        ans = 0;
+
+        count(root,Integer.MIN_VALUE);
+        return ans;
     }
 
-    int dfs(TreeNode root, int i) {
-        if (root == null) return 0;
-        int count = 0;
-        if (root.val >= i) count++;
-
-        return count + dfs(root.left, Math.max(i, root.val)) + dfs(root.right, Math.max(i, root.val));
+    void count(TreeNode root, int max){
+        if(root == null) return;
+        if(root.val >= max){
+            ans++;
+            max = root.val;
+        }
+        count(root.left,max);
+        count(root.right,max);
     }
 }
